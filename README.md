@@ -16,3 +16,6 @@ I've only tested this on my personal Samsung Galaxy S9.
 5. Enter shell with the following command
     - `adb shell`
 6. Once in the device's shell, simply copy and paste all desired commands from [commands.txt](./commands.txt) to remove the package. I encourage researching each package to make sure you don't need it.
+
+### Sources
+- https://forum.xda-developers.com/showpost.php?p=73894621&postcount=23
