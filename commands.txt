@@ -28,7 +28,6 @@ pm uninstall  -k --user 0 com.osp.app.signin
 pm uninstall  -k --user 0 com.sec.android.app.withtv
 pm uninstall  -k --user 0 com.sec.automation
 pm uninstall  -k --user 0 com.samsung.android.app.memo
-pm uninstall  -k --user 0 com.sec.android.mimage.gear360editor
 pm uninstall  -k --user 0 com.sec.spp.push
 pm uninstall  -k --user 0 com.android.wallpapercropper
 pm uninstall  -k --user 0 com.sec.android.app.shealth
@@ -129,7 +128,6 @@ pm uninstall  -k --user 0 com.microsoft.office.powerpoint
 pm uninstall  -k --user 0 com.samsung.android.app.simplesharing
 pm uninstall  -k --user 0 com.samsung.android.service.peoplestripe
 pm uninstall  -k --user 0 com.facebook.katana
-pm uninstall  -k --user 0 com.sec.android.gallery3d.panorama360view
 pm uninstall  -k --user 0 com.facebook.system
 pm uninstall  -k --user 0 com.sec.smartcard.manager
 pm uninstall  -k --user 0 com.facebook.appmanager
