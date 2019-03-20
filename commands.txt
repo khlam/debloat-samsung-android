@@ -111,7 +111,6 @@ pm uninstall  -k --user 0 com.samsung.android.app.settings.bixby
 pm uninstall  -k --user 0 com.samsung.systemui.bixby2
 pm uninstall  -k --user 0 com.samsung.android.bixby.service
 
-
 pm uninstall  -k --user 0 com.samsung.android.calendar
 pm uninstall  -k --user 0 com.samsung.android.dlp.service
 pm uninstall  -k --user 0 com.samsung.android.drivelink.stub
@@ -144,7 +143,6 @@ pm uninstall  -k --user 0 com.samsung.android.spayfw
 pm uninstall  -k --user 0 com.samsung.android.spdfnote
 pm uninstall  -k --user 0 com.samsung.android.stickercenter
 pm uninstall  -k --user 0 com.samsung.android.stickerplugin
-pm uninstall  -k --user 0 com.samsung.android.svoice
 pm uninstall  -k --user 0 com.samsung.android.svoice
 pm uninstall  -k --user 0 com.samsung.android.svoiceime
 pm uninstall  -k --user 0 com.samsung.android.themestore
