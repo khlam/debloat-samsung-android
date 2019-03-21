@@ -78,6 +78,7 @@ pm uninstall  -k --user 0 com.samsung.android.app.advsounddetector
 pm uninstall  -k --user 0 com.samsung.android.app.appsedge
 pm uninstall  -k --user 0 com.samsung.android.app.assistantmenu
 pm uninstall  -k --user 0 com.samsung.android.app.camera.sticker.facear.preload
+pm uninstall  -k --user 0 com.samsung.android.app.camera.sticker.facear3d.preload
 pm uninstall  -k --user 0 com.samsung.android.app.clipboardedge
 pm uninstall  -k --user 0 com.samsung.android.app.cocktailbarservice
 pm uninstall  -k --user 0 com.samsung.android.app.episodes
@@ -143,6 +144,8 @@ pm uninstall  -k --user 0 com.samsung.android.spayfw
 pm uninstall  -k --user 0 com.samsung.android.spdfnote
 pm uninstall  -k --user 0 com.samsung.android.stickercenter
 pm uninstall  -k --user 0 com.samsung.android.stickerplugin
+pm uninstall  -k --user 0 com.samsung.android.app.camera.sticker.facearframe.preload
+pm uninstall  -k --user 0 com.samsung.android.app.camera.sticker.stamp.preload
 pm uninstall  -k --user 0 com.samsung.android.svoice
 pm uninstall  -k --user 0 com.samsung.android.svoiceime
 pm uninstall  -k --user 0 com.samsung.android.themestore
