@@ -1,21 +1,29 @@
-# Debloat Samsung Android Phones
-Tested and working on Galaxy S9.
+# Debloat Samsung Android via ADB
 
-### What?
 This repository contains a list of adb commands to remove bloatware from Samsung Android devices.
-It removes all Samsung-related apps, Facebook services, Google apps, etc.
-You can still re-install any app you need.
-I've only tested this on my personal Samsung Galaxy S9.
+Running all commands listed in [commands.txt](./commands.txt) will **uninstall** all Samsung services, Facebook services, Google apps, Bixby, and most pre-installed bloatware.
+These commands will not disrupt Samsung Knox. These commands will **remove** the Galaxy Store (everything including themes) and Samsung Pay.
+
+> IMPORTANT: Research each package before deleting it. Some apps have hidden dependencies.
+
+Ex. removing `com.samsung.android.provider.filterprovider` will cause the stock Samsung camera app to crash. I've tested my list [commands.txt](./commands.txt) and I haven't noticed any issues.
 
 ### How?
+The following instructions assumes you are familiar with using a command-line interface.
 1. Enable Android "Developer Options"
 2. Turn on "USB Debugging"
-3. Download and start [ADB - XDA Forums](https://www.xda-developers.com/google-releases-separate-adb-and-fastboot-binary-downloads/) for your OS.
-4. Connect your Samsung Android phone to your computer. Verify that adb sees your device and the daemon is running with the following command
+3. Download [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools) for your OS.
+4. Extract [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools) and start a command-prompt/shell session in the extracted folder's directory.
+5. Connect your Samsung Android phone to your computer with USB debugging enabled. Verify that adb sees your device and the daemon is running with the following command
     - `adb devices`
-5. Enter shell with the following command
+    - You should see the device name listed as a "device".
+    
+    
+    <img src="./img/adb_devices.PNG"/>
+
+6. Enter your device's shell with the following command
     - `adb shell`
-6. Once in the device's shell, simply copy and paste all desired commands from [commands.txt](./commands.txt) to remove the package. I encourage researching each package to make sure you don't need it.
+7. Once in the device's shell, copy and paste all desired commands from [commands.txt](./commands.txt) to remove the package. 
 
 ### Sources
 - https://forum.xda-developers.com/showpost.php?p=73894621&postcount=23
