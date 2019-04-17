@@ -2,7 +2,7 @@
 
 This repository contains a list of adb commands to remove bloatware from Samsung Android devices.
 
-Running this script is roughly equilivent to what [Package Disabler Pro+ (Play Store Link)](https://play.google.com/store/apps/details?id=com.elmklmsamsung.batteryaddon&hl=en_US) does, except you're running commands manually so you don't need to give an app device admin permission.
+The effect of running these adb commands is roughly equilivent to what [Package Disabler Pro+ (Play Store Link)](https://play.google.com/store/apps/details?id=com.elmklmsamsung.batteryaddon&hl=en_US) does, except you're running commands manually so you don't need to give an app device admin permission.
 
 Running all commands listed in [commands.txt](./commands.txt) will **uninstall** all Samsung services, Facebook services, Google apps, Bixby, and most pre-installed bloatware.
 These commands will not disrupt Samsung Knox. These commands will **remove** the Galaxy Store (everything including themes) and Samsung Pay.
