@@ -1,4 +1,6 @@
-# Debloat Samsung Android via ADB
+# WARNING: DO NOT BLINDLY RUN THESE COMMANDS, MOST CANNOT BE UNDONE WITHOUT FACTORY RESETTING YOUR DEVICE.
+
+### Debloat Samsung Android via ADB
 
 This repository contains a list of adb commands to remove bloatware from Samsung Android devices.
 
@@ -12,6 +14,7 @@ These commands will not disrupt Samsung Knox. These commands will **remove** the
 Ex. removing `com.samsung.android.provider.filterprovider` will cause the stock Samsung camera app to crash. I've tested my list [commands.txt](./commands.txt) and I haven't noticed any issues.
 
 ### How?
+# WARNING: DO NOT BLINDLY RUN THESE COMMANDS, MOST CANNOT BE UNDONE WITHOUT FACTORY RESETTING YOUR DEVICE.
 The following instructions assumes you are familiar with using a command-line interface.
 1. Enable Android "Developer Options"
 2. Turn on "USB Debugging"
