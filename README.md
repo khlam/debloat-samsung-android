@@ -13,8 +13,11 @@ These commands will not disrupt Samsung Knox. These commands will **remove** the
 
 Ex. removing `com.samsung.android.provider.filterprovider` will cause the stock Samsung camera app to crash. I've tested my list [commands.txt](./commands.txt) and I haven't noticed any issues.
 
-### How?
+
 # WARNING: DO NOT BLINDLY RUN THESE COMMANDS, MOST CANNOT BE UNDONE WITHOUT FACTORY RESETTING YOUR DEVICE.
+
+
+### How?
 The following instructions assumes you are familiar with using a command-line interface.
 1. Enable Android "Developer Options"
 2. Turn on "USB Debugging"
