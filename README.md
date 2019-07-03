@@ -1,4 +1,4 @@
-# WARNING: DO NOT BLINDLY RUN THESE COMMANDS, MOST CANNOT BE UNDONE WITHOUT FACTORY RESETTING YOUR DEVICE.
+# WARNING: DO NOT BLINDLY RUN THESE COMMANDS
 
 ### Debloat Samsung Android via ADB
 
@@ -15,7 +15,7 @@ These commands will not disrupt Samsung Knox. These commands will **remove** the
 Ex. removing `com.samsung.android.provider.filterprovider` will cause the stock Samsung camera app to crash. I've tested my list [commands.txt](./commands.txt) and I haven't noticed any issues.
 
 
-# WARNING: DO NOT BLINDLY RUN THESE COMMANDS, MOST CANNOT BE UNDONE WITHOUT FACTORY RESETTING YOUR DEVICE.
+# WARNING: DO NOT BLINDLY RUN THESE COMMANDS
 
 
 ### How?
