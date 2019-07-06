@@ -36,6 +36,7 @@ pm uninstall  -k --user 0 com.facebook.katana
 pm uninstall  -k --user 0 com.facebook.services
 pm uninstall  -k --user 0 com.facebook.system
 
+pm uninstall  -k --user 0 com.google.ar.core 
 pm uninstall  -k --user 0 com.google.android.apps.books
 pm uninstall  -k --user 0 com.google.android.apps.docs
 pm uninstall  -k --user 0 com.google.android.apps.magazines
