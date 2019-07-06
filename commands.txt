@@ -139,8 +139,10 @@ pm uninstall  -k --user 0 com.samsung.android.scloud
 pm uninstall  -k --user 0 com.samsung.android.sdk.professionalaudio.utility.jammonitor
 pm uninstall  -k --user 0 com.samsung.android.service.peoplestripe
 pm uninstall  -k --user 0 com.samsung.android.service.travel
-pm uninstall  -k --user 0 com.samsung.android.spay
-pm uninstall  -k --user 0 com.samsung.android.spayfw
+
+# pm uninstall  -k --user 0 com.samsung.android.spayfw
+pm uninstall  -k --user 0 com.samsung.android.app.notes
+pm uninstall  -k --user 0 com.samsung.android.knox.analytics.uploader   
 pm uninstall  -k --user 0 com.samsung.android.spdfnote
 pm uninstall  -k --user 0 com.samsung.android.stickercenter
 pm uninstall  -k --user 0 com.samsung.android.stickerplugin
