@@ -17,9 +17,6 @@ Running all commands listed in [commands.txt](./commands.txt) will **uninstall**
 These commands will not disrupt Samsung Knox. These commands will **remove** the Galaxy Store (everything including themes) and Samsung Pay.
 
 
-
-# WARNING: DO NOT BLINDLY RUN THESE COMMANDS
-
 > ⚠️ Research each package before deleting it. Some apps have hidden dependencies.
 
 Removing or disabling `com.samsung.android.provider.filterprovider` **will cause the stock Samsung camera app to crash**.
