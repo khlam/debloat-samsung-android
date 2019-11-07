@@ -16,12 +16,14 @@ The effect of running these adb commands is roughly equilivent to what [Package 
 Running all commands listed in [commands.txt](./commands.txt) will **uninstall** all Samsung services, Facebook services, Google apps, Bixby, and most pre-installed bloatware.
 These commands will not disrupt Samsung Knox. These commands will **remove** the Galaxy Store (everything including themes) and Samsung Pay.
 
-> ⚠️ Research each package before deleting it. Some apps have hidden dependencies.
-
-Removing `com.samsung.android.provider.filterprovider` **will cause the stock Samsung camera app to crash**.
 
 
 # WARNING: DO NOT BLINDLY RUN THESE COMMANDS
+
+> ⚠️ Research each package before deleting it. Some apps have hidden dependencies.
+
+Removing or disabling `com.samsung.android.provider.filterprovider` **will cause the stock Samsung camera app to crash**.
+
 
 
 ### How?
