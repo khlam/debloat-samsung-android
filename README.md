@@ -42,3 +42,4 @@ The following instructions assumes you are familiar with using a command-line in
 
 ### Sources
 - https://forum.xda-developers.com/showpost.php?p=73894621&postcount=23
+- Package Disabler Pro
