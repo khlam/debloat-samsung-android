@@ -1,13 +1,4 @@
-# ⚠️ WARNING:⚠️
-THESE COMMANDS *WILL BREAK THE FOLLOWING FEATURES*. PROCEED AT YOUR OWN RISK.
-1. Profile Isolation (ex. Work Profile) apps - Apps like [Island](https://play.google.com/store/apps/details?id=com.oasisfeng.island&hl=en_US) and [Shelter](https://play.google.com/store/apps/details?id=net.typeblog.shelter&hl=en_US) 🚨 *WILL BOOTLOOP YOUR PHONE* 🚨
-2. Anything to do with the Galaxy Store - Links will not work.
-
-The following features will work as normal.
-1. All Android stock features (apps, Google services, phone, sms, camera, etc.)
-2. Galaxy Wearable Apps that can be downloaded from the Google Play Store
-
-### Debloat Samsung Android via ADB
+# Debloat Samsung Android via ADB
 
 This repository contains a list of adb commands to remove bloatware from Samsung Android devices. Keep in mind running all these commands will remove everything Samsung, including the galaxy store, themes, etc. down to barebones Android. Use at your own risk and read over all commands to make sure you don't take out something you need. While these commands cannot harm your device, there may be situations where your phone gets into a loop and your only option is to perform a factory reset.
 
@@ -16,6 +7,14 @@ The effect of running these adb commands is roughly equilivent to what [Package 
 Running all commands listed in [commands.txt](./commands.txt) will **uninstall** all Samsung services, Facebook services, Google apps, Bixby, and most pre-installed bloatware.
 These commands will not disrupt Samsung Knox. These commands will **remove** the Galaxy Store (everything including themes) and Samsung Pay.
 
+# ⚠️ WARNING:⚠️
+THESE COMMANDS *WILL BREAK THE FOLLOWING FEATURES*. PROCEED AT YOUR OWN RISK.
+1. Profile Isolation (ex. Work Profile) apps - Apps like [Island](https://play.google.com/store/apps/details?id=com.oasisfeng.island&hl=en_US) and [Shelter](https://play.google.com/store/apps/details?id=net.typeblog.shelter&hl=en_US) 🚨 *WILL BOOTLOOP YOUR PHONE* 🚨
+2. Anything to do with the Galaxy Store - Links will not work.
+
+The following features will work as normal.
+1. All Android stock features (apps, Google services, phone, sms, camera, etc.)
+2. Galaxy Wearable Apps that can be downloaded from the Google Play Store
 
 > ⚠️ Research each package before deleting it. Some apps have hidden dependencies.
 
