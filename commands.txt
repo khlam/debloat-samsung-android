@@ -3,6 +3,7 @@ pm uninstall  -k --user 0 com.amazon.kindle
 pm uninstall  -k --user 0 com.amazon.mp3
 pm uninstall  -k --user 0 com.amazon.mShop.android
 pm uninstall  -k --user 0 com.amazon.venezia
+pm uninstall  -k --user 0 in.amazon.mShop.android.shopping
 
 pm uninstall  -k --user 0 com.android.backupconfirm
 pm uninstall  -k --user 0 com.android.bips
@@ -41,10 +42,12 @@ pm uninstall  -k --user 0 com.google.android.apps.books
 pm uninstall  -k --user 0 com.google.android.apps.docs
 pm uninstall  -k --user 0 com.google.android.apps.magazines
 pm uninstall  -k --user 0 com.google.android.apps.maps
+pm uninstall  -k --user 0 com.google.android.apps.photos
 pm uninstall  -k --user 0 com.google.android.apps.plus
 pm uninstall  -k --user 0 com.google.android.apps.tachyon
 pm uninstall  -k --user 0 com.google.android.gm
 pm uninstall  -k --user 0 com.google.android.googlequicksearchbox
+pm uninstall  -k --user 0 com.google.android.music
 pm uninstall  -k --user 0 com.google.android.talk
 pm uninstall  -k --user 0 com.google.android.tts
 pm uninstall  -k --user 0 com.google.android.videos
@@ -229,3 +232,10 @@ pm uninstall  -k --user 0 com.yelp.android.samsungedge
 pm uninstall  -k --user 0 flipboard.app
 pm uninstall  -k --user 0 flipboard.boxer.app
 pm uninstall  -k --user 0 tv.peel.samsung.app
+
+pm uninstall  -k --user 0 com.aura.oobe.samsung
+pm uninstall  -k --user 0 com.opera.max.preinstall
+pm uninstall  -k --user 0 com.samsung.android.keyguardmgsupdator
+pm uninstall  -k --user 0 com.samsung.android.spaymini
+pm uninstall  -k --user 0 com.samsung.android.app.bikemode
+pm uninstall  -k --user 0 com.opera.max.oem
