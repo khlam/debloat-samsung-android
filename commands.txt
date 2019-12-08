@@ -16,7 +16,7 @@ pm uninstall  -k --user 0 com.android.exchange
 pm uninstall  -k --user 0 com.android.hotwordenrollment.okgoogle
 pm uninstall  -k --user 0 com.android.printspooler
 pm uninstall  -k --user 0 com.android.providers.partnerbookmarks
-pm uninstall  -k --user 0 com.android.providers.userdictionary
+# pm uninstall  -k --user 0 com.android.providers.userdictionary
 pm uninstall  -k --user 0 com.android.sharedstoragebackup
 pm uninstall  -k --user 0 com.android.stk
 pm uninstall  -k --user 0 com.android.wallpaper.livepicker
