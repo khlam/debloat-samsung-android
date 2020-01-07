@@ -229,3 +229,5 @@ pm uninstall  -k --user 0 com.yelp.android.samsungedge
 pm uninstall  -k --user 0 flipboard.app
 pm uninstall  -k --user 0 flipboard.boxer.app
 pm uninstall  -k --user 0 tv.peel.samsung.app
+
+pm uninstall  -k --user 0 com.samsung.android.lool
