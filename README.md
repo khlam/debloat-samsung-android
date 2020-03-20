@@ -11,6 +11,7 @@ These commands will not disrupt Samsung Knox. These commands will **remove** the
 THESE COMMANDS *WILL BREAK THE FOLLOWING FEATURES*. PROCEED AT YOUR OWN RISK.
 1. Profile Isolation (ex. Work Profile) apps - Apps like [Island](https://play.google.com/store/apps/details?id=com.oasisfeng.island&hl=en_US) and [Shelter](https://play.google.com/store/apps/details?id=net.typeblog.shelter&hl=en_US) 🚨 *WILL BOOTLOOP YOUR PHONE* 🚨
 2. Anything to do with the Galaxy Store - Links will not work.
+3. The Device Care app will be disabled and will not appear in settings. This includes Samsung's app sleeper and battery monitor. There is [evidence](https://www.virustotal.com/gui/file/048ead2be8d18bbe2b05651380069b3740dd05703e9bd66630da986026518398/details) the Device care app created by the Chinese data mining company [Qihoo 360](https://en.wikipedia.org/wiki/Qihoo_360) sends data to China domains over HTTP. This kind of cleaner doesn't do anything anyway. If you want this functionality for some reason, do not run the command that disables `com.samsung.android.lool`.
 
 The following features will work as normal.
 1. All Android stock features (apps, Google services, phone, sms, camera, etc.)

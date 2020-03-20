@@ -7,6 +7,7 @@ pm uninstall  -k --user 0 in.amazon.mShop.android.shopping
 
 pm uninstall  -k --user 0 com.android.backupconfirm
 pm uninstall  -k --user 0 com.android.bips
+pm uninstall -k --user 0 com.google.android.printservice.recommendation
 pm uninstall  -k --user 0 com.android.chrome
 pm uninstall  -k --user 0 com.android.dreams.basic
 pm uninstall  -k --user 0 com.android.dreams.phototable
@@ -122,13 +123,16 @@ pm uninstall  -k --user 0 com.samsung.android.dlp.service
 pm uninstall  -k --user 0 com.samsung.android.drivelink.stub
 pm uninstall  -k --user 0 com.samsung.android.easysetup
 pm uninstall  -k --user 0 com.samsung.android.email.provider
+pm uninstall -k --user 0 com.wsomacp
 pm uninstall  -k --user 0 com.samsung.android.fmm
 
 pm uninstall  -k --user 0 com.samsung.android.game.gamehome
+pm uninstall -k --user 0 com.enhance.gameservice
 pm uninstall  -k --user 0 com.samsung.android.game.gametools
+pm uninstall -k --user 0 com.samsung.android.game.gos
+pm uninstall -k --user 0 com.samsung.android.gametuner.thin
 
 pm uninstall  -k --user 0 com.samsung.android.hmt.vrshell
-pm uninstall  -k --user 0 com.samsung.android.hmt.vrsvc
 pm uninstall  -k --user 0 com.samsung.android.hmt.vrsvc
 
 pm uninstall  -k --user 0 com.samsung.android.keyguardwallpaperupdator
@@ -145,7 +149,9 @@ pm uninstall  -k --user 0 com.samsung.android.sdk.professionalaudio.utility.jamm
 pm uninstall  -k --user 0 com.samsung.android.service.peoplestripe
 pm uninstall  -k --user 0 com.samsung.android.service.travel
 
-# pm uninstall  -k --user 0 com.samsung.android.spayfw
+pm uninstall -k --user 0 com.samsung.android.spay
+pm uninstall  -k --user 0 com.samsung.android.spayfw
+
 pm uninstall  -k --user 0 com.samsung.android.app.notes
 pm uninstall  -k --user 0 com.samsung.android.knox.analytics.uploader   
 pm uninstall  -k --user 0 com.samsung.android.spdfnote
@@ -239,3 +245,19 @@ pm uninstall  -k --user 0 com.samsung.android.keyguardmgsupdator
 pm uninstall  -k --user 0 com.samsung.android.spaymini
 pm uninstall  -k --user 0 com.samsung.android.app.bikemode
 pm uninstall  -k --user 0 com.opera.max.oem
+
+pm uninstall  -k --user 0 com.samsung.android.lool
+
+pm uninstall -k --user 0 com.samsung.desktopsystemui
+pm uninstall -k --user 0 com.samsung.android.app.ledbackcover
+
+pm uninstall -k --user 0 com.samsung.android.kidsinstaller
+pm uninstall -k --user 0 com.samsung.android.app.camera.sticker.facearavatar.preload
+
+pm uninstall -k --user 0 com.samsung.android.aremoji
+pm uninstall -k --user 0 com.samsung.android.wellbeing
+pm uninstall -k --user 0 com.samsung.android.da.daagent
+pm uninstall -k --user 0 com.samsung.android.service.livedrawing
+pm uninstall -k --user 0 com.sec.android.mimage.avatarstickers
+
+pm uninstall -k --user 0 com.samsung.android.app.routines
