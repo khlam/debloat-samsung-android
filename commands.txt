@@ -103,6 +103,7 @@ pm uninstall  -k --user 0 com.samsung.android.app.withtv
 pm uninstall  -k --user 0 com.samsung.android.bbc.bbcagent
 pm uninstall  -k --user 0 com.samsung.android.beaconmanager
 pm uninstall  -k --user 0 com.samsung.android.app.reminder
+pm uninstall  -k --user 0 com.samsung.android.app.tips
 
 pm uninstall  -k --user 0 com.samsung.android.bixby.agent
 pm uninstall  -k --user 0 com.samsung.android.bixby.agent.dummy
