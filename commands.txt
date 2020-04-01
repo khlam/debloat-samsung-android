@@ -252,3 +252,4 @@ pm uninstall -k --user 0 com.samsung.android.service.livedrawing
 pm uninstall -k --user 0 com.sec.android.mimage.avatarstickers
 
 pm uninstall -k --user 0 com.samsung.android.app.routines
+pm uninstall -k --user 0 com.microsoft.appmanager
