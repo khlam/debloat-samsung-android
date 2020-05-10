@@ -1,29 +1,29 @@
 # Debloat Samsung Android via ADB
 
-This repository contains a list of adb commands to remove bloatware from Samsung Android devices. Keep in mind running all these commands will remove everything Samsung, including the galaxy store, themes, etc. down to barebones Android. Use at your own risk and read over all commands to make sure you don't take out something you need. While these commands cannot harm your device, there may be situations where your phone gets into a loop and your only option is to perform a factory reset.
+This repository contains a list of adb commands to aggressively remove bloatware from Samsung Android devices.
 
-The effect of running these adb commands is roughly equilivent to what [Package Disabler Pro+ (Play Store Link)](https://play.google.com/store/apps/details?id=com.elmklmsamsung.batteryaddon&hl=en_US) does, except you're running commands manually so you don't need to give an app device admin permission.
 
-Running all commands listed in [commands.txt](./commands.txt) will **uninstall** all Samsung services, Facebook services, Google apps, Bixby, and most pre-installed bloatware.
-These commands will not disrupt Samsung Knox. These commands will **remove** the Galaxy Store, Samsung One UI themes, and Samsung Pay.
+Running all commands listed in [commands.txt](./commands.txt) will disable almost all Samsung apps.
+This includes the Galaxy App Store, Samsung Themes, Samsung Dex, Samsung Bixby, Facebook, and more.
+The end result will be a minimalist Samsung phone.
+These commands will not disrupt Samsung Knox or the Google Play Store.
+Use at your own risk and read over all commands to make sure you don't take out something you need.
+While these commands cannot harm your device, there may be situations where your phone gets into a loop and you must perform a factory reset.
+
+
+Running these adb commands is equilivent to using [Package Disabler Pro+ (Play Store Link)](https://play.google.com/store/apps/details?id=com.elmklmsamsung.batteryaddon&hl=en_US), except you're running commands manually so you don't need to give an app device admin permission or pay anything.
+
+
 
 # ⚠️ WARNING:⚠️
-THESE COMMANDS *WILL BREAK THE FOLLOWING FEATURES*. PROCEED AT YOUR OWN RISK.
-1. Profile Isolation (ex. Work Profile) apps - Apps like [Island](https://play.google.com/store/apps/details?id=com.oasisfeng.island&hl=en_US) and [Shelter](https://play.google.com/store/apps/details?id=net.typeblog.shelter&hl=en_US) 🚨 *WILL BOOTLOOP YOUR PHONE* 🚨
-2. Anything to do with the Galaxy Store - Links will not work.
-3. The Device Care app will be disabled and will not appear in settings. This includes Samsung's app sleeper and battery monitor. There is [evidence](https://www.virustotal.com/gui/file/048ead2be8d18bbe2b05651380069b3740dd05703e9bd66630da986026518398/details) the Device care app created by the Chinese data mining company [Qihoo 360](https://en.wikipedia.org/wiki/Qihoo_360) sends data to China domains over HTTP. This kind of cleaner doesn't do anything anyway. If you want this functionality for some reason, do not run the command that disables `com.samsung.android.lool`.
+1. After running these commands, you will no longer be able to install Profile Isolation (Work Profile) apps such as [Island](https://play.google.com/store/apps/details?id=com.oasisfeng.island&hl=en_US) or [Shelter](https://play.google.com/store/apps/details?id=net.typeblog.shelter&hl=en_US). **Installing Profile Isolation apps after running these commands will put OneUI into a crash-loop.**
+2. Anything to do with the Galaxy Store will not work.
+3. The Device Care app will be disabled and will not appear in settings. This includes Samsung's app sleeper and battery monitor. There is [evidence](https://www.virustotal.com/gui/file/048ead2be8d18bbe2b05651380069b3740dd05703e9bd66630da986026518398/details) the Device Care app created by the Chinese company [Qihoo 360](https://en.wikipedia.org/wiki/Qihoo_360) sends data to China domains over HTTP. If you want this functionality, do not disable `com.samsung.android.lool`.
+4. Do not disable `com.samsung.android.provider.filterprovider`. **Doing so will cause the stock Samsung camera app to crash**.
 
-The following features will work as normal.
-1. All Android stock features (apps, Google services, phone, sms, camera, etc.)
-2. Galaxy Wearable Apps that can be downloaded from the Google Play Store
+> ⚠️ Research each package before running the command to disable it. Some apps have hidden dependencies.
 
-> ⚠️ Research each package before deleting it. Some apps have hidden dependencies.
-
-Removing or disabling `com.samsung.android.provider.filterprovider` **will cause the stock Samsung camera app to crash**.
-
-
-
-### How?
+# Instructions
 The following instructions assumes you are familiar with using a command-line interface.
 1. Enable Android "Developer Options"
 2. Turn on "USB Debugging"
