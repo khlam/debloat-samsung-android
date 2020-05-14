@@ -181,36 +181,69 @@ pm uninstall -k --user 0 com.samsung.android.wellbeing
 pm uninstall -k --user 0 com.samsung.android.widgetapp.yahooedge.finance
 pm uninstall -k --user 0 com.samsung.android.widgetapp.yahooedge.sport
 pm uninstall -k --user 0 com.samsung.app.highlightplayer
+pm uninstall -k --user 0 com.samsung.daydream.customization
+pm uninstall -k --user 0 com.samsung.dcmservice
 pm uninstall -k --user 0 com.samsung.desktopsystemui
+pm uninstall -k --user 0 com.samsung.enhanceservice
+pm uninstall -k --user 0 com.samsung.faceservice
+pm uninstall -k --user 0 com.samsung.fresco.logging
 pm uninstall -k --user 0 com.samsung.groupcast
+pm uninstall -k --user 0 com.samsung.hs20provider
+pm uninstall -k --user 0 com.samsung.ipservice
+pm uninstall -k --user 0 com.samsung.knox.appsupdateagent
+pm uninstall -k --user 0 com.samsung.knox.rcp.components
 pm uninstall -k --user 0 com.samsung.knox.securefolder
+pm uninstall -k --user 0 com.samsung.knox.securefolder.setuppage
 pm uninstall -k --user 0 com.samsung.safetyinformation
+pm uninstall -k --user 0 com.samsung.sec.android.application.csc
 pm uninstall -k --user 0 com.samsung.SMT
 pm uninstall -k --user 0 com.samsung.storyservice
 pm uninstall -k --user 0 com.samsung.svoice.sync
 pm uninstall -k --user 0 com.samsung.systemui.bixby
 pm uninstall -k --user 0 com.samsung.systemui.bixby2
+pm uninstall -k --user 0 com.samsung.ucs.agent.ese
 pm uninstall -k --user 0 com.samsung.voiceserviceplatform
 
+pm uninstall -k --user 0 com.sec.android.app.apex
+pm uninstall -k --user 0 com.sec.android.app.applinker
 pm uninstall -k --user 0 com.sec.android.app.billing
+pm uninstall -k --user 0 com.sec.android.app.bluetoothtest
+pm uninstall -k --user 0 com.sec.android.app.chromecustomizations
 pm uninstall -k --user 0 com.sec.android.app.clockpackage
+pm uninstall -k --user 0 com.sec.android.app.DataCreate
 pm uninstall -k --user 0 com.sec.android.app.desktoplauncher
 pm uninstall -k --user 0 com.sec.android.app.dexonpc
+pm uninstall -k --user 0 com.sec.android.app.factorykeystring
 pm uninstall -k --user 0 com.sec.android.app.gamehub
+pm uninstall -k --user 0 com.sec.android.app.hwmoduletest
 pm uninstall -k --user 0 com.sec.android.app.magnifier
 pm uninstall -k --user 0 com.sec.android.app.myfiles
 pm uninstall -k --user 0 com.sec.android.app.ocr
+pm uninstall -k --user 0 com.sec.android.app.parser
+pm uninstall -k --user 0 com.sec.android.app.personalization
 pm uninstall -k --user 0 com.sec.android.app.popupcalculator
+pm uninstall -k --user 0 com.sec.android.app.quicktool
+pm uninstall -k --user 0 com.sec.android.app.ringtoneBR
+pm uninstall -k --user 0 com.sec.android.app.safetyassurance
 pm uninstall -k --user 0 com.sec.android.app.samsungapps
 pm uninstall -k --user 0 com.sec.android.app.sbrowser
 pm uninstall -k --user 0 com.sec.android.app.SecSetupWizard
+pm uninstall -k --user 0 com.sec.android.app.servicemodeapp
 pm uninstall -k --user 0 com.sec.android.app.shealth
+pm uninstall -k --user 0 com.sec.android.app.SmartClipEdgeService
+pm uninstall -k --user 0 com.sec.android.app.soundalive
+pm uninstall -k --user 0 com.sec.android.app.sysscope
+pm uninstall -k --user 0 com.sec.android.app.tfunlock
+pm uninstall -k --user 0 com.sec.android.app.tourviewer
 pm uninstall -k --user 0 com.sec.android.app.translator
+pm uninstall -k --user 0 com.sec.android.app.wfdbroker
 pm uninstall -k --user 0 com.sec.android.app.withtv
+pm uninstall -k --user 0 com.sec.android.app.wlantest
 pm uninstall -k --user 0 com.sec.android.AutoPreconfig
 pm uninstall -k --user 0 com.sec.android.cover.ledcover
 pm uninstall -k --user 0 com.sec.android.daemonapp
 pm uninstall -k --user 0 com.sec.android.desktopmode.uiservice
+pm uninstall -k --user 0 com.sec.android.diagmonagent
 pm uninstall -k --user 0 com.sec.android.easyMover
 pm uninstall -k --user 0 com.sec.android.easyMover.Agent
 pm uninstall -k --user 0 com.sec.android.easyonehand
@@ -219,29 +252,64 @@ pm uninstall -k --user 0 com.sec.android.mimage.avatarstickers
 pm uninstall -k --user 0 com.sec.android.mimage.gear360editor
 pm uninstall -k --user 0 com.sec.android.mimage.photoretouching
 pm uninstall -k --user 0 com.sec.android.ofviewer
+pm uninstall -k --user 0 com.sec.android.omc
+pm uninstall -k --user 0 com.sec.android.Preconfig
+pm uninstall -k --user 0 com.sec.android.preloadinstaller
 pm uninstall -k --user 0 com.sec.android.provider.snote
+pm uninstall -k --user 0 com.sec.android.providers.security
+pm uninstall -k --user 0 com.sec.android.providers.tasks
+pm uninstall -k --user 0 com.sec.android.RilServiceModeApp
+pm uninstall -k --user 0 com.sec.android.sdhms
 pm uninstall -k --user 0 com.sec.android.service.health
 pm uninstall -k --user 0 com.sec.android.sidesync30
+pm uninstall -k --user 0 com.sec.android.splitsound
 pm uninstall -k --user 0 com.sec.android.uibcvirtualsoftkey
 pm uninstall -k --user 0 com.sec.android.widgetapp.diotek.smemo
 pm uninstall -k --user 0 com.sec.android.widgetapp.easymodecontactswidget
 pm uninstall -k --user 0 com.sec.android.widgetapp.samsungapps
+pm uninstall -k --user 0 com.sec.app.TransmitPowerService
 pm uninstall -k --user 0 com.sec.automation
 pm uninstall -k --user 0 com.sec.bcservice
+pm uninstall -k --user 0 com.sec.downloadablekeystore
+pm uninstall -k --user 0 com.sec.enterprise.knox.attestation
+pm uninstall -k --user 0 com.sec.enterprise.knox.cloudmdm.smdms
 pm uninstall -k --user 0 com.sec.enterprise.mdm.services.simpin
 pm uninstall -k --user 0 com.sec.enterprise.mdm.vpn
 pm uninstall -k --user 0 com.sec.epdgtestapp
 pm uninstall -k --user 0 com.sec.everglades
 pm uninstall -k --user 0 com.sec.everglades.update
+pm uninstall -k --user 0 com.sec.factory
+pm uninstall -k --user 0 com.sec.factory.camera
+pm uninstall -k --user 0 com.sec.factory.iris.usercamera
 pm uninstall -k --user 0 com.sec.hearingadjust
+pm uninstall -k --user 0 com.sec.ims
+pm uninstall -k --user 0 com.sec.imslogger
+pm uninstall -k --user 0 com.sec.imsservice
 pm uninstall -k --user 0 com.sec.kidsplat.installer
+pm uninstall -k --user 0 com.sec.knox.foldercontainer
+pm uninstall -k --user 0 com.sec.knox.knoxsetupwizardclient
+pm uninstall -k --user 0 com.sec.knox.switcher
 pm uninstall -k --user 0 com.sec.location.nsflp2
+pm uninstall -k --user 0 com.sec.mldapchecker
+pm uninstall -k --user 0 com.sec.modem.settings
+pm uninstall -k --user 0 com.sec.providers.assisteddialing
 pm uninstall -k --user 0 com.sec.readershub
 pm uninstall -k --user 0 com.sec.smartcard.manager
+pm uninstall -k --user 0 com.sec.spen.flashannotate
 pm uninstall -k --user 0 com.sec.spp.push
+pm uninstall -k --user 0 com.sec.sve
+pm uninstall -k --user 0 com.sec.usbsettings
+pm uninstall -k --user 0 com.sec.vowifispg
 pm uninstall -k --user 0 com.sec.yosemite.phone
+pm uninstall -k --user 0 com.sem.factoryapp
+
+pm uninstall -k --user 0 com.singtel.mysingtel
+
+pm uninstall -k --user 0 com.skms.android.agent
 
 pm uninstall -k --user 0 com.skype.raider
+
+pm uninstall -k --user 0 com.test.LTEfunctionality
 
 pm uninstall -k --user 0 com.tripadvisor.tripadvisor
 
@@ -250,6 +318,8 @@ pm uninstall -k --user 0 com.trustonic.tuiservice
 pm uninstall -k --user 0 com.vlingo.midas
 
 pm uninstall -k --user 0 com.wsomacp
+
+pm uninstall -k --user 0 com.wssnps
 
 pm uninstall -k --user 0 com.yelp.android.samsungedge
 
