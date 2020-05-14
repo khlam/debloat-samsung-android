@@ -126,6 +126,7 @@ pm uninstall -k --user 0 com.samsung.android.app.watchmanager
 pm uninstall -k --user 0 com.samsung.android.app.watchmanagerstub
 pm uninstall -k --user 0 com.samsung.android.app.withtv
 pm uninstall -k --user 0 com.samsung.android.aremoji
+pm uninstall -k --user 0 com.samsung.android.authfw
 pm uninstall -k --user 0 com.samsung.android.bbc.bbcagent
 pm uninstall -k --user 0 com.samsung.android.beaconmanager
 pm uninstall -k --user 0 com.samsung.android.bixby.agent
@@ -173,6 +174,7 @@ pm uninstall -k --user 0 com.samsung.android.stickercenter
 pm uninstall -k --user 0 com.samsung.android.stickerplugin
 pm uninstall -k --user 0 com.samsung.android.svoice
 pm uninstall -k --user 0 com.samsung.android.svoiceime
+pm uninstall -k --user 0 com.samsung.android.themecenter
 pm uninstall -k --user 0 com.samsung.android.themestore
 pm uninstall -k --user 0 com.samsung.android.tripwidget
 pm uninstall -k --user 0 com.samsung.android.visioncloudagent
