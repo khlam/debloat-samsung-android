@@ -162,6 +162,7 @@ pm uninstall -k --user 0 com.samsung.android.samsungpass
 pm uninstall -k --user 0 com.samsung.android.samsungpassautofill
 pm uninstall -k --user 0 com.samsung.android.scloud
 pm uninstall -k --user 0 com.samsung.android.sdk.professionalaudio.utility.jammonitor
+pm uninstall -k --user 0 com.samsung.android.server.iris
 pm uninstall -k --user 0 com.samsung.android.service.livedrawing
 pm uninstall -k --user 0 com.samsung.android.service.peoplestripe
 pm uninstall -k --user 0 com.samsung.android.service.travel
