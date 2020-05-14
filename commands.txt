@@ -202,9 +202,6 @@ pm uninstall -k --user 0 com.sec.android.easyonehand
 pm uninstall -k --user 0 com.sec.android.emergencylauncher
 pm uninstall -k --user 0 com.sec.android.mimage.gear360editor
 
-# pm uninstall -k --user 0 com.sec.android.inputmethod
-# pm uninstall -k --user 0 com.sec.android.inputmethod.beta
-
 pm uninstall -k --user 0 com.sec.android.mimage.photoretouching
 pm uninstall -k --user 0 com.sec.android.ofviewer
 pm uninstall -k --user 0 com.sec.android.provider.snote
