@@ -38,8 +38,16 @@ The following instructions assumes you are familiar with using a command-line in
 
 6. Enter your device's shell with the following command
     - `adb shell`
-7. Once in the device's shell, copy and paste all desired commands from [commands.txt](./commands.txt) to remove the package. 
+7. Once in the device's shell, copy and paste all desired commands from [commands.txt](./commands.txt) to remove the package.
+
+# Other
+Once in your device's shell, you can use the following command to list installed packages by name.
+ - `pm list package | grep '<package name>'`
+
+For example, to list all installed packages with Facebook in their name, you'd type,
+ - `pm list package | grep 'facebook'`
 
 ### Sources
+- https://www.xda-developers.com/disable-system-app-bloatware-android/
 - https://forum.xda-developers.com/showpost.php?p=73894621&postcount=23
 - Package Disabler Pro
