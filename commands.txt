@@ -114,8 +114,10 @@ pm uninstall -k --user 0 com.samsung.android.app.reminder
 pm uninstall -k --user 0 com.samsung.android.app.routines
 pm uninstall -k --user 0 com.samsung.android.app.sbrowseredge
 pm uninstall -k --user 0 com.samsung.android.app.settings.bixby
+pm uninstall -k --user 0 com.samsung.android.app.sharelive
 pm uninstall -k --user 0 com.samsung.android.app.simplesharing
 pm uninstall -k --user 0 com.samsung.android.app.smartcapture
+pm uninstall -k --user 0 com.samsung.android.app.soundpicker
 pm uninstall -k --user 0 com.samsung.android.app.spage
 pm uninstall -k --user 0 com.samsung.android.app.storyalbumwidget
 pm uninstall -k --user 0 com.samsung.android.app.talkback
@@ -125,8 +127,11 @@ pm uninstall -k --user 0 com.samsung.android.app.vrsetupwizardstub
 pm uninstall -k --user 0 com.samsung.android.app.watchmanager
 pm uninstall -k --user 0 com.samsung.android.app.watchmanagerstub
 pm uninstall -k --user 0 com.samsung.android.app.withtv
+pm uninstall -k --user 0 com.samsung.android.ardrawing
 pm uninstall -k --user 0 com.samsung.android.aremoji
+pm uninstall -k --user 0 com.samsung.android.arzone
 pm uninstall -k --user 0 com.samsung.android.authfw
+pm uninstall -k --user 0 com.samsung.android.aware.service
 pm uninstall -k --user 0 com.samsung.android.bbc.bbcagent
 pm uninstall -k --user 0 com.samsung.android.beaconmanager
 pm uninstall -k --user 0 com.samsung.android.bixby.agent
@@ -156,6 +161,9 @@ pm uninstall -k --user 0 com.samsung.android.knox.analytics.uploader
 pm uninstall -k --user 0 com.samsung.android.lool
 pm uninstall -k --user 0 com.samsung.android.mateagent
 pm uninstall -k --user 0 com.samsung.android.mdm
+pm uninstall -k --user 0 com.samsung.android.mdx
+pm uninstall -k --user 0 com.samsung.android.mdx.kit
+pm uninstall -k --user 0 com.samsung.android.mdx.quickboard
 pm uninstall -k --user 0 com.samsung.android.messaging
 pm uninstall -k --user 0 com.samsung.android.mobileservice
 pm uninstall -k --user 0 com.samsung.android.oneconnect
@@ -167,6 +175,7 @@ pm uninstall -k --user 0 com.samsung.android.server.iris
 pm uninstall -k --user 0 com.samsung.android.service.livedrawing
 pm uninstall -k --user 0 com.samsung.android.service.peoplestripe
 pm uninstall -k --user 0 com.samsung.android.service.travel
+pm uninstall -k --user 0 com.samsung.android.setting.multisound
 pm uninstall -k --user 0 com.samsung.android.spay
 pm uninstall -k --user 0 com.samsung.android.spayfw
 pm uninstall -k --user 0 com.samsung.android.spdfnote
@@ -177,6 +186,7 @@ pm uninstall -k --user 0 com.samsung.android.svoiceime
 pm uninstall -k --user 0 com.samsung.android.themecenter
 pm uninstall -k --user 0 com.samsung.android.themestore
 pm uninstall -k --user 0 com.samsung.android.tripwidget
+pm uninstall -k --user 0 com.samsung.android.visionarapps
 pm uninstall -k --user 0 com.samsung.android.visioncloudagent
 pm uninstall -k --user 0 com.samsung.android.visionintelligence
 pm uninstall -k --user 0 com.samsung.android.voicewakeup
@@ -239,6 +249,7 @@ pm uninstall -k --user 0 com.sec.android.app.sysscope
 pm uninstall -k --user 0 com.sec.android.app.tfunlock
 pm uninstall -k --user 0 com.sec.android.app.tourviewer
 pm uninstall -k --user 0 com.sec.android.app.translator
+pm uninstall -k --user 0 com.sec.android.app.ve.vebgm
 pm uninstall -k --user 0 com.sec.android.app.wfdbroker
 pm uninstall -k --user 0 com.sec.android.app.withtv
 pm uninstall -k --user 0 com.sec.android.app.wlantest
