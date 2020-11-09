@@ -26,20 +26,21 @@ Running these adb commands is equilivent to using [Package Disabler Pro+ (Play S
 
 # Instructions
 The following instructions assumes you are familiar with using a command-line interface.
-1. On your phone, enable Android's "Developer Options"
-2. In "Developer Options", turn on "USB Debugging"
-3. On your computer, download [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools) for your OS.
-4. Extract [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools) and start a command-prompt/shell session in the extracted folder's directory.
-5. Connect your Samsung Android phone to your computer with USB debugging enabled. Verify that adb sees your device and the daemon is running with the following command
+1. (Recommended for stability) Backup, update, and factory reset your phone.
+2. On your phone, enable Android's "Developer Options"
+3. In "Developer Options", turn on "USB Debugging"
+4. On your computer, download [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools) for your OS.
+5. Extract [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools) and start a command-prompt/shell session in the extracted folder's directory.
+6. Connect your Samsung Android phone to your computer with USB debugging enabled. Verify that adb sees your device and the daemon is running with the following command
     - `adb devices`
     - You should see the device name listed as a "device".
     - At this point your device should prompt you to accept USB debugging from your computer. Tap "Allow". 
     
     <img src="./img/adb_devices.PNG"/>
 
-6. Enter your device's shell with the following command
+7. Enter your device's shell with the following command
     - `adb shell`
-7. Once in the device's shell, copy and paste all desired commands from [commands.txt](./commands.txt) to remove the package.
+8. Once in the device's shell, copy and paste all desired commands from [commands.txt](./commands.txt) to remove the package.
 
 # Other
 Once in your device's shell, you can use the following command to list installed packages by name.
