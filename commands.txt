@@ -18,6 +18,7 @@ pm uninstall -k --user 0 com.android.providers.partnerbookmarks
 pm uninstall -k --user 0 com.android.providers.userdictionary
 pm uninstall -k --user 0 com.android.sharedstoragebackup
 pm uninstall -k --user 0 com.android.stk
+pm uninstall -k --user 0 com.android.stk2
 pm uninstall -k --user 0 com.android.wallpaper.livepicker
 pm uninstall -k --user 0 com.android.wallpapercropper
 
@@ -42,6 +43,9 @@ pm uninstall -k --user 0 com.facebook.appmanager
 pm uninstall -k --user 0 com.facebook.katana
 pm uninstall -k --user 0 com.facebook.services
 pm uninstall -k --user 0 com.facebook.system
+
+pm uninstall -k --user 0 com.netflix.mediaclient
+pm uninstall -k --user 0 com.netflix.partner.activation
 
 pm uninstall -k --user 0 com.google.android.apps.books
 pm uninstall -k --user 0 com.google.android.apps.docs
