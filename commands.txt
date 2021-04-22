@@ -351,3 +351,6 @@ pm uninstall -k --user 0 com.microsoft.office.outlook
 pm uninstall -k --user 0 com.linkedin.android
 
 pm uninstall -k --user 0 com.spotify.music
+
+pm disable-user --user 0 com.samsung.clipboardsaveservice
+pm disable-user --user 0 com.samsung.android.clipboarduiservice
