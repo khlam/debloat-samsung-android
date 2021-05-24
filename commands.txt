@@ -331,7 +331,7 @@ pm uninstall -k --user 0 com.trustonic.tuiservice
 
 pm uninstall -k --user 0 com.vlingo.midas
 
-pm uninstall -k --user 0 com.wsomacp
+# pm uninstall -k --user 0 com.wsomacp
 
 pm uninstall -k --user 0 com.wssnps
 
