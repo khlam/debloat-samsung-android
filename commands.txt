@@ -18,6 +18,7 @@ pm uninstall -k --user 0 com.android.providers.partnerbookmarks
 pm uninstall -k --user 0 com.android.providers.userdictionary
 pm uninstall -k --user 0 com.android.sharedstoragebackup
 pm uninstall -k --user 0 com.android.stk
+pm uninstall -k --user 0 com.android.stk2
 pm uninstall -k --user 0 com.android.wallpaper.livepicker
 pm uninstall -k --user 0 com.android.wallpapercropper
 
@@ -42,6 +43,9 @@ pm uninstall -k --user 0 com.facebook.appmanager
 pm uninstall -k --user 0 com.facebook.katana
 pm uninstall -k --user 0 com.facebook.services
 pm uninstall -k --user 0 com.facebook.system
+
+pm uninstall -k --user 0 com.netflix.mediaclient
+pm uninstall -k --user 0 com.netflix.partner.activation
 
 pm uninstall -k --user 0 com.google.android.apps.books
 pm uninstall -k --user 0 com.google.android.apps.docs
@@ -341,3 +345,12 @@ pm uninstall -k --user 0 comflipboard.app
 pm uninstall -k --user 0 comflipboard.boxer.app
 
 pm uninstall -k --user 0 comtv.peel.samsung.app
+
+pm uninstall -k --user 0 com.microsoft.office.officehubrow
+pm uninstall -k --user 0 com.microsoft.office.outlook
+pm uninstall -k --user 0 com.linkedin.android
+
+pm uninstall -k --user 0 com.spotify.music
+
+pm uninstall -k --user 0 com.samsung.clipboardsaveservice
+pm uninstall -k --user 0 com.samsung.android.clipboarduiservice
