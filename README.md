@@ -42,6 +42,15 @@ The following instructions assumes you are familiar with using a command-line in
     - `adb shell`
 8. Once in the device's shell, copy and paste all desired commands from [commands.txt](./commands.txt) to remove the package.
 
+9. To remove all apps in the list type the following command
+    - Rename command.txt to command.sh
+    - Push the file to sdcard by
+        `adb push /path/to/command.sh /sdcard
+    - Run the following command in adb shell
+        `cd /sdcard/`
+        `chmod +x command.sh`
+        `/system/bin/sh command.sh`
+
 # Other
 Once in your device's shell, you can use the following command to list installed packages by name.
  - `pm list package | grep '<package name>'`
