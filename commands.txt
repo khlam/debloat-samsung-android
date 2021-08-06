@@ -341,3 +341,8 @@ pm uninstall -k --user 0 comflipboard.app
 pm uninstall -k --user 0 comflipboard.boxer.app
 
 pm uninstall -k --user 0 comtv.peel.samsung.app
+
+pm uninstall -k --user 0 com.samsung.android.galaxy
+pm uninstall -k --user 0 com.samsung.android.tvplus
+pm uninstall -k --user 0 com.samsung.sree
+pm uninstall -k --user 0 com.sec.penup
