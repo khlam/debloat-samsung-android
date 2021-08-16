@@ -116,7 +116,6 @@ pm uninstall -k --user 0 com.samsung.android.app.sbrowseredge
 pm uninstall -k --user 0 com.samsung.android.app.settings.bixby
 pm uninstall -k --user 0 com.samsung.android.app.sharelive
 pm uninstall -k --user 0 com.samsung.android.app.simplesharing
-pm uninstall -k --user 0 com.samsung.android.app.smartcapture
 pm uninstall -k --user 0 com.samsung.android.app.soundpicker
 pm uninstall -k --user 0 com.samsung.android.app.spage
 pm uninstall -k --user 0 com.samsung.android.app.storyalbumwidget
