@@ -20,7 +20,7 @@ Running these adb commands is equilivent to using [Package Disabler Pro+ (Play S
 2. Anything to do with the Galaxy Store will not work.
 3. Samsung Dex / Samsung Phone integration with Windows 10 will be disabled. 
 4. The Device Care app will be disabled and will not appear in settings. This includes Samsung's app sleeper and battery monitor. There is [evidence](https://www.virustotal.com/gui/file/048ead2be8d18bbe2b05651380069b3740dd05703e9bd66630da986026518398/details) the Device Care app created by the Chinese company [Qihoo 360](https://en.wikipedia.org/wiki/Qihoo_360) sends data to China domains over HTTP. If you want this functionality do not disable `com.samsung.android.lool`.
-5. Do not disable `com.samsung.android.provider.filterprovider`. **Doing so will cause the stock Samsung camera app to crash**.
+5. Do not disable `com.samsung.android.provider.filterprovider` or `com.samsung.android.app.smartcapture`. **Doing so will cause the stock Samsung camera app to crash**.
 
 > ⚠️ Research each package before running the command to disable it. Some apps have hidden dependencies.
 
