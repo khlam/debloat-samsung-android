@@ -340,3 +340,12 @@ pm uninstall -k --user 0 comflipboard.app
 pm uninstall -k --user 0 comflipboard.boxer.app
 
 pm uninstall -k --user 0 comtv.peel.samsung.app
+
+pm uninstall -k --user 0 com.microsoft.office.officehubrow
+pm uninstall -k --user 0 com.microsoft.office.outlook
+pm uninstall -k --user 0 com.linkedin.android
+
+pm uninstall -k --user 0 com.spotify.music
+
+pm uninstall -k --user 0 com.netflix.partner.activation
+pm uninstall -k --user 0 com.netflix.mediaclient
