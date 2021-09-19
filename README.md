@@ -40,7 +40,7 @@ The following instructions assumes you are familiar with using a command-line in
 
 7. Enter your device's shell with the following command
     - `adb shell`
-8. Once in the device's shell, copy and paste all desired commands from [commands.txt](./commands.txt) to remove the package.
+8. Once in the device's shell, copy and paste all desired commands from [commands.txt](./commands.txt) to remove the package, or download commands.txt to your device and run "cat commands.txt | $SHELL" to remove everything in the list. 
 
 # Other
 Once in your device's shell, you can use the following command to list installed packages by name.
