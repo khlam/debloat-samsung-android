@@ -70,6 +70,7 @@ pm uninstall -k --user 0 com.infraware.polarisoffice5
 
 pm uninstall -k --user 0 com.microsoft.appmanager
 pm uninstall -k --user 0 com.microsoft.office.excel
+pm uninstall -k --user 0 com.microsoft.office.outlook     
 pm uninstall -k --user 0 com.microsoft.office.powerpoint
 pm uninstall -k --user 0 com.microsoft.office.word
 pm uninstall -k --user 0 com.microsoft.skydrive
@@ -110,6 +111,7 @@ pm uninstall -k --user 0 com.samsung.android.app.ledcoverdream
 pm uninstall -k --user 0 com.samsung.android.app.memo
 pm uninstall -k --user 0 com.samsung.android.app.mirrorlink
 pm uninstall -k --user 0 com.samsung.android.app.notes
+pm uninstall -k --user 0 com.samsung.android.app.notes.addons
 pm uninstall -k --user 0 com.samsung.android.app.reminder
 pm uninstall -k --user 0 com.samsung.android.app.routines
 pm uninstall -k --user 0 com.samsung.android.app.sbrowseredge
@@ -154,6 +156,7 @@ pm uninstall -k --user 0 com.samsung.android.game.gos
 pm uninstall -k --user 0 com.samsung.android.gametuner.thin
 pm uninstall -k --user 0 com.samsung.android.hmt.vrshell
 pm uninstall -k --user 0 com.samsung.android.hmt.vrsvc
+pm uninstall -k --user 0 com.samsung.android.ipsgeofence    
 pm uninstall -k --user 0 com.samsung.android.keyguardwallpaperupdator
 pm uninstall -k --user 0 com.samsung.android.kidsinstaller
 pm uninstall -k --user 0 com.samsung.android.knox.analytics.uploader
