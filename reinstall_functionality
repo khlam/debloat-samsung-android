@@ -1,264 +1,361 @@
-cmd package install-existing com.android.backupconfirm
-cmd package install-existing com.android.bips
-cmd package install-existing com.android.chrome
-cmd package install-existing com.android.dreams.basic
-cmd package install-existing com.android.dreams.phototable
-cmd package install-existing com.android.dreams.phototable
-cmd package install-existing com.android.email
-cmd package install-existing com.android.exchange
-cmd package install-existing com.android.hotwordenrollment.okgoogle
-cmd package install-existing com.android.printspooler
-cmd package install-existing com.android.providers.partnerbookmarks
-cmd package install-existing com.android.providers.userdictionary
-cmd package install-existing com.android.sharedstoragebackup
-cmd package install-existing com.android.stk
-cmd package install-existing com.android.wallpaper.livepicker
-cmd package install-existing com.android.wallpapercropper
+pm install-existing --user 0 com.amazon.fv
+pm install-existing --user 0 com.amazon.kindle
+pm install-existing --user 0 com.amazon.mp3
+pm install-existing --user 0 com.amazon.mShop.android
+pm install-existing --user 0 com.amazon.venezia
 
-cmd package install-existing com.google.android.googlequicksearchbox
-cmd package install-existing com.google.android.printservice.recommendation
-cmd package install-existing com.google.android.googlequicksearchbox
-cmd package install-existing com.google.ar.core
-cmd package install-existing com.google.vr.vrcore
+pm install-existing --user 0 com.android.backupconfirm
+pm install-existing --user 0 com.android.bips
+pm install-existing --user 0 com.android.chrome
+pm install-existing --user 0 com.android.dreams.basic
+pm install-existing --user 0 com.android.dreams.phototable
+pm install-existing --user 0 com.android.dreams.phototable
+pm install-existing --user 0 com.android.email
+pm install-existing --user 0 com.android.exchange
+pm install-existing --user 0 com.android.hotwordenrollment.okgoogle
+pm install-existing --user 0 com.android.printspooler
+pm install-existing --user 0 com.android.providers.partnerbookmarks
+pm install-existing --user 0 com.android.providers.userdictionary
+pm install-existing --user 0 com.android.sharedstoragebackup
+pm install-existing --user 0 com.android.stk
+pm install-existing --user 0 com.android.wallpaper.livepicker
+pm install-existing --user 0 com.android.wallpapercropper
 
-cmd package install-existing com.nuance.swype.input
+pm install-existing --user 0 com.audible.application
 
-cmd package install-existing com.policydm
+pm install-existing --user 0 com.blurb.checkout
 
-cmd package install-existing com.samsung.aasaservice
-cmd package install-existing com.samsung.advp.imssettings
-cmd package install-existing com.samsung.android.aircommandmanager
-cmd package install-existing com.samsung.android.allshare.service.fileshare
-cmd package install-existing com.samsung.android.allshare.service.mediashare
-cmd package install-existing com.samsung.android.app.advsounddetector
-cmd package install-existing com.samsung.android.app.appsedge
-cmd package install-existing com.samsung.android.app.assistantmenu
-cmd package install-existing com.samsung.android.app.camera.sticker.facear.preload
-cmd package install-existing com.samsung.android.app.camera.sticker.facear3d.preload
-cmd package install-existing com.samsung.android.app.camera.sticker.facearavatar.preload
-cmd package install-existing com.samsung.android.app.camera.sticker.facearframe.preload
-cmd package install-existing com.samsung.android.app.camera.sticker.stamp.preload
-cmd package install-existing com.samsung.android.app.clipboardedge
-cmd package install-existing com.samsung.android.app.cocktailbarservice
-cmd package install-existing com.samsung.android.app.episodes
-cmd package install-existing com.samsung.android.app.filterinstaller
-cmd package install-existing com.samsung.android.app.galaxyfinder
-cmd package install-existing com.samsung.android.app.ledbackcover
-cmd package install-existing com.samsung.android.app.ledcoverdream
-cmd package install-existing com.samsung.android.app.memo
-cmd package install-existing com.samsung.android.app.mirrorlink
-cmd package install-existing com.samsung.android.app.notes
-cmd package install-existing com.samsung.android.app.notes.addons
-cmd package install-existing com.samsung.android.app.reminder
-cmd package install-existing com.samsung.android.app.routines
-cmd package install-existing com.samsung.android.app.sbrowseredge
-cmd package install-existing com.samsung.android.app.settings.bixby
-cmd package install-existing com.samsung.android.app.sharelive
-cmd package install-existing com.samsung.android.app.simplesharing
-cmd package install-existing com.samsung.android.app.soundpicker
-cmd package install-existing com.samsung.android.app.spage
-cmd package install-existing com.samsung.android.app.storyalbumwidget
-cmd package install-existing com.samsung.android.app.talkback
-cmd package install-existing com.samsung.android.app.taskedge
-cmd package install-existing com.samsung.android.app.tips
-cmd package install-existing com.samsung.android.app.updatecenter
-cmd package install-existing com.samsung.android.app.vrsetupwizardstub
-cmd package install-existing com.samsung.android.app.watchmanager
-cmd package install-existing com.samsung.android.app.watchmanagerstub
-cmd package install-existing com.samsung.android.app.withtv
-cmd package install-existing com.samsung.android.ardrawing
-cmd package install-existing com.samsung.android.aremoji
-cmd package install-existing com.samsung.android.arzone
-cmd package install-existing com.samsung.android.authfw
-cmd package install-existing com.samsung.android.aware.service
-cmd package install-existing com.samsung.android.bbc.bbcagent
-cmd package install-existing com.samsung.android.beaconmanager
-cmd package install-existing com.samsung.android.bixby.agent
-cmd package install-existing com.samsung.android.bixby.agent.dummy
-cmd package install-existing com.samsung.android.bixby.es.globalaction
-cmd package install-existing com.samsung.android.bixby.plmsync
-cmd package install-existing com.samsung.android.bixby.service
-cmd package install-existing com.samsung.android.bixby.voiceinput
-cmd package install-existing com.samsung.android.bixby.wakeup
-cmd package install-existing com.samsung.android.bixbyvision.framework
-cmd package install-existing com.samsung.android.calendar
-cmd package install-existing com.samsung.android.da.daagent
-cmd package install-existing com.samsung.android.dlp.service
-cmd package install-existing com.samsung.android.drivelink.stub
-cmd package install-existing com.samsung.android.easysetup
-cmd package install-existing com.samsung.android.email.provider
-cmd package install-existing com.samsung.android.fmm
-cmd package install-existing com.samsung.android.galaxy 
-cmd package install-existing com.samsung.android.game.gamehome
-cmd package install-existing com.samsung.android.game.gametools
-cmd package install-existing com.samsung.android.game.gos
-cmd package install-existing com.samsung.android.gametuner.thin
-cmd package install-existing com.samsung.android.hmt.vrshell
-cmd package install-existing com.samsung.android.hmt.vrsvc
-cmd package install-existing com.samsung.android.ipsgeofence    
-cmd package install-existing com.samsung.android.keyguardwallpaperupdator
-cmd package install-existing com.samsung.android.kidsinstaller
-cmd package install-existing com.samsung.android.knox.analytics.uploader
-cmd package install-existing com.samsung.android.lool
-cmd package install-existing com.samsung.android.mapsagent 
-cmd package install-existing com.samsung.android.mateagent
-cmd package install-existing com.samsung.android.mdm
-cmd package install-existing com.samsung.android.mdx
-cmd package install-existing com.samsung.android.mdx.kit
-cmd package install-existing com.samsung.android.mdx.quickboard
-cmd package install-existing com.samsung.android.messaging
-cmd package install-existing com.samsung.android.mobileservice
-cmd package install-existing com.samsung.android.oneconnect
-cmd package install-existing com.samsung.android.samsungpass
-cmd package install-existing com.samsung.android.samsungpassautofill
-cmd package install-existing com.samsung.android.scloud
-cmd package install-existing com.samsung.android.sdk.professionalaudio.utility.jammonitor
-cmd package install-existing com.samsung.android.server.iris
-cmd package install-existing com.samsung.android.service.livedrawing
-cmd package install-existing com.samsung.android.service.peoplestripe
-cmd package install-existing com.samsung.android.service.travel
-cmd package install-existing com.samsung.android.setting.multisound
-cmd package install-existing com.samsung.android.spay
-cmd package install-existing com.samsung.android.spayfw
-cmd package install-existing com.samsung.android.spdfnote
-cmd package install-existing com.samsung.android.stickercenter
-cmd package install-existing com.samsung.android.stickerplugin
-cmd package install-existing com.samsung.android.svoice
-cmd package install-existing com.samsung.android.svoiceime
-cmd package install-existing com.samsung.android.themecenter
-cmd package install-existing com.samsung.android.themestore
-cmd package install-existing com.samsung.android.tripwidget
-cmd package install-existing com.samsung.android.visionarapps
-cmd package install-existing com.samsung.android.visioncloudagent
-cmd package install-existing com.samsung.android.visionintelligence
-cmd package install-existing com.samsung.android.voc
-cmd package install-existing com.samsung.android.voicewakeup
-cmd package install-existing com.samsung.android.wellbeing
-cmd package install-existing com.samsung.android.widgetapp.yahooedge.finance
-cmd package install-existing com.samsung.android.widgetapp.yahooedge.sport
-cmd package install-existing com.samsung.app.highlightplayer
-cmd package install-existing com.samsung.daydream.customization
-cmd package install-existing com.samsung.dcmservice
-cmd package install-existing com.samsung.desktopsystemui
-cmd package install-existing com.samsung.enhanceservice
-cmd package install-existing com.samsung.faceservice
-cmd package install-existing com.samsung.fresco.logging
-cmd package install-existing com.samsung.groupcast
-cmd package install-existing com.samsung.hs20provider
-cmd package install-existing com.samsung.ipservice
-cmd package install-existing com.samsung.knox.appsupdateagent
-cmd package install-existing com.samsung.knox.rcp.components
-cmd package install-existing com.samsung.knox.securefolder
-cmd package install-existing com.samsung.knox.securefolder.setuppage
-cmd package install-existing com.samsung.safetyinformation
-cmd package install-existing com.samsung.sec.android.application.csc
-cmd package install-existing com.samsung.SMT
-cmd package install-existing com.samsung.sree  
-cmd package install-existing com.samsung.storyservice
-cmd package install-existing com.samsung.svoice.sync
-cmd package install-existing com.samsung.systemui.bixby
-cmd package install-existing com.samsung.systemui.bixby2
-cmd package install-existing com.samsung.ucs.agent.ese
-cmd package install-existing com.samsung.voiceserviceplatform
+pm install-existing --user 0 com.cequint.ecid
 
-cmd package install-existing com.sec.android.app.apex
-cmd package install-existing com.sec.android.app.applinker
-cmd package install-existing com.sec.android.app.billing
-cmd package install-existing com.sec.android.app.bluetoothtest
-cmd package install-existing com.sec.android.app.chromecustomizations
-cmd package install-existing com.sec.android.app.clockpackage
-cmd package install-existing com.sec.android.app.DataCreate
-cmd package install-existing com.sec.android.app.desktoplauncher
-cmd package install-existing com.sec.android.app.dexonpc
-cmd package install-existing com.sec.android.app.factorykeystring
-cmd package install-existing com.sec.android.app.gamehub
-cmd package install-existing com.sec.android.app.hwmoduletest
-cmd package install-existing com.sec.android.app.kidshome  
-cmd package install-existing com.sec.android.app.magnifier
-cmd package install-existing com.sec.android.app.myfiles
-cmd package install-existing com.sec.android.app.ocr
-cmd package install-existing com.sec.android.app.parser
-cmd package install-existing com.sec.android.app.personalization
-cmd package install-existing com.sec.android.app.popupcalculator
-cmd package install-existing com.sec.android.app.quicktool
-cmd package install-existing com.sec.android.app.ringtoneBR
-cmd package install-existing com.sec.android.app.safetyassurance
-cmd package install-existing com.sec.android.app.samsungapps
-cmd package install-existing com.sec.android.app.sbrowser
-cmd package install-existing com.sec.android.app.SecSetupWizard
-cmd package install-existing com.sec.android.app.servicemodeapp
-cmd package install-existing com.sec.android.app.shealth
-cmd package install-existing com.sec.android.app.SmartClipEdgeService
-cmd package install-existing com.sec.android.app.soundalive
-cmd package install-existing com.sec.android.app.sysscope
-cmd package install-existing com.sec.android.app.tfunlock
-cmd package install-existing com.sec.android.app.tourviewer
-cmd package install-existing com.sec.android.app.translator
-cmd package install-existing com.sec.android.app.ve.vebgm
-cmd package install-existing com.sec.android.app.wfdbroker
-cmd package install-existing com.sec.android.app.withtv
-cmd package install-existing com.sec.android.app.wlantest
-cmd package install-existing com.sec.android.AutoPreconfig
-cmd package install-existing com.sec.android.cover.ledcover
-cmd package install-existing com.sec.android.daemonapp
-cmd package install-existing com.sec.android.desktopmode.uiservice
-cmd package install-existing com.sec.android.diagmonagent
-cmd package install-existing com.sec.android.easyMover
-cmd package install-existing com.sec.android.easyMover.Agent
-cmd package install-existing com.sec.android.easyonehand
-cmd package install-existing com.sec.android.emergencylauncher
-cmd package install-existing com.sec.android.mimage.avatarstickers
-cmd package install-existing com.sec.android.mimage.gear360editor
-cmd package install-existing com.sec.android.mimage.photoretouching
-cmd package install-existing com.sec.android.ofviewer
-cmd package install-existing com.sec.android.omc
-cmd package install-existing com.sec.android.Preconfig
-cmd package install-existing com.sec.android.preloadinstaller
-cmd package install-existing com.sec.android.provider.snote
-cmd package install-existing com.sec.android.providers.security
-cmd package install-existing com.sec.android.providers.tasks
-cmd package install-existing com.sec.android.RilServiceModeApp
-cmd package install-existing com.sec.android.sdhms
-cmd package install-existing com.sec.android.service.health
-cmd package install-existing com.sec.android.sidesync30
-cmd package install-existing com.sec.android.splitsound
-cmd package install-existing com.sec.android.uibcvirtualsoftkey
-cmd package install-existing com.sec.android.widgetapp.diotek.smemo
-cmd package install-existing com.sec.android.widgetapp.easymodecontactswidget
-cmd package install-existing com.sec.android.widgetapp.samsungapps
-cmd package install-existing com.sec.app.TransmitPowerService
-cmd package install-existing com.sec.automation
-cmd package install-existing com.sec.bcservice
-cmd package install-existing com.sec.downloadablekeystore
-cmd package install-existing com.sec.enterprise.knox.attestation
-cmd package install-existing com.sec.enterprise.knox.cloudmdm.smdms
-cmd package install-existing com.sec.enterprise.mdm.services.simpin
-cmd package install-existing com.sec.enterprise.mdm.vpn
-cmd package install-existing com.sec.epdgtestapp
-cmd package install-existing com.sec.everglades
-cmd package install-existing com.sec.everglades.update
-cmd package install-existing com.sec.factory
-cmd package install-existing com.sec.factory.camera
-cmd package install-existing com.sec.factory.iris.usercamera
-cmd package install-existing com.sec.hearingadjust
-cmd package install-existing com.sec.ims
-cmd package install-existing com.sec.imslogger
-cmd package install-existing com.sec.imsservice
-cmd package install-existing com.sec.kidsplat.installer
-cmd package install-existing com.sec.knox.foldercontainer
-cmd package install-existing com.sec.knox.knoxsetupwizardclient
-cmd package install-existing com.sec.knox.switcher
-cmd package install-existing com.sec.location.nsflp2
-cmd package install-existing com.sec.mldapchecker
-cmd package install-existing com.sec.modem.settings
-cmd package install-existing com.sec.penup     
-cmd package install-existing com.sec.providers.assisteddialing
-cmd package install-existing com.sec.readershub
-cmd package install-existing com.sec.smartcard.manager
-cmd package install-existing com.sec.spen.flashannotate
-cmd package install-existing com.sec.spp.push
-cmd package install-existing com.sec.sve
-cmd package install-existing com.sec.usbsettings
-cmd package install-existing com.sec.vowifispg
-cmd package install-existing com.sec.yosemite.phone
-cmd package install-existing com.sem.factoryapp
+pm install-existing --user 0 com.cnn.mobile.android.phone.edgepanel
+
+pm install-existing --user 0 com.diotek.sec.lookup.dictionary
+
+pm install-existing --user 0 com.dsi.ant.plugins.antplus
+pm install-existing --user 0 com.dsi.ant.sample.acquirechannels
+pm install-existing --user 0 com.dsi.ant.server
+pm install-existing --user 0 com.dsi.ant.service.socket
+
+pm install-existing --user 0 com.enhance.gameservice
+
+pm install-existing --user 0 com.facebook.appmanager
+pm install-existing --user 0 com.facebook.katana
+pm install-existing --user 0 com.facebook.services
+pm install-existing --user 0 com.facebook.system
+
+pm install-existing --user 0 com.google.android.apps.books
+pm install-existing --user 0 com.google.android.apps.docs
+pm install-existing --user 0 com.google.android.apps.magazines
+pm install-existing --user 0 com.google.android.apps.maps
+pm install-existing --user 0 com.google.android.apps.plus
+pm install-existing --user 0 com.google.android.apps.tachyon
+pm install-existing --user 0 com.google.android.gm
+pm install-existing --user 0 com.google.android.googlequicksearchbox
+pm install-existing --user 0 com.google.android.printservice.recommendation
+pm install-existing --user 0 com.google.android.talk
+pm install-existing --user 0 com.google.android.tts
+pm install-existing --user 0 com.google.android.videos
+pm install-existing --user 0 com.google.android.youtube
+pm install-existing --user 0 com.google.android.apps.youtube.music
+pm install-existing --user 0 com.google.ar.core
+pm install-existing --user 0 com.google.vr.vrcore
+
+pm install-existing --user 0 com.gotv.nflgamecenter.us.lite
+
+pm install-existing --user 0 com.hancom.office.editor.hidden
+pm install-existing --user 0 com.hancom.office.editor.hidden
+
+pm install-existing --user 0 com.imdb.mobile
+
+pm install-existing --user 0 com.infraware.polarisoffice5
+
+pm install-existing --user 0 com.linkedin.android
+
+pm install-existing --user 0 com.microsoft.appmanager
+pm install-existing --user 0 com.microsoft.office.excel
+pm install-existing --user 0 com.microsoft.office.officehubrow  
+pm install-existing --user 0 com.microsoft.office.outlook     
+pm install-existing --user 0 com.microsoft.office.powerpoint
+pm install-existing --user 0 com.microsoft.office.word
+pm install-existing --user 0 com.microsoft.skydrive
+
+pm install-existing --user 0 com.mobeam.barcodeService
+
+pm install-existing --user 0 com.monotype.android.font.chococooky
+pm install-existing --user 0 com.monotype.android.font.cooljazz
+pm install-existing --user 0 com.monotype.android.font.foundation
+pm install-existing --user 0 com.monotype.android.font.rosemary
+
+pm install-existing --user 0 com.netflix.mediaclient
+
+pm install-existing --user 0 com.nuance.swype.input
+
+pm install-existing --user 0 com.osp.app.signin
+
+pm install-existing --user 0 com.policydm
+
+pm install-existing --user 0 com.samsung.aasaservice
+pm install-existing --user 0 com.samsung.advp.imssettings
+pm install-existing --user 0 com.samsung.android.aircommandmanager
+pm install-existing --user 0 com.samsung.android.allshare.service.fileshare
+pm install-existing --user 0 com.samsung.android.allshare.service.mediashare
+pm install-existing --user 0 com.samsung.android.app.advsounddetector
+pm install-existing --user 0 com.samsung.android.app.appsedge
+pm install-existing --user 0 com.samsung.android.app.assistantmenu
+pm install-existing --user 0 com.samsung.android.app.camera.sticker.facear.preload
+pm install-existing --user 0 com.samsung.android.app.camera.sticker.facear3d.preload
+pm install-existing --user 0 com.samsung.android.app.camera.sticker.facearavatar.preload
+pm install-existing --user 0 com.samsung.android.app.camera.sticker.facearframe.preload
+pm install-existing --user 0 com.samsung.android.app.camera.sticker.stamp.preload
+pm install-existing --user 0 com.samsung.android.app.clipboardedge
+pm install-existing --user 0 com.samsung.android.app.cocktailbarservice
+pm install-existing --user 0 com.samsung.android.app.episodes
+pm install-existing --user 0 com.samsung.android.app.filterinstaller
+pm install-existing --user 0 com.samsung.android.app.galaxyfinder
+pm install-existing --user 0 com.samsung.android.app.ledbackcover
+pm install-existing --user 0 com.samsung.android.app.ledcoverdream
+pm install-existing --user 0 com.samsung.android.app.memo
+pm install-existing --user 0 com.samsung.android.app.mirrorlink
+pm install-existing --user 0 com.samsung.android.app.notes
+pm install-existing --user 0 com.samsung.android.app.notes.addons
+pm install-existing --user 0 com.samsung.android.app.reminder
+pm install-existing --user 0 com.samsung.android.app.routines
+pm install-existing --user 0 com.samsung.android.app.sbrowseredge
+pm install-existing --user 0 com.samsung.android.app.settings.bixby
+pm install-existing --user 0 com.samsung.android.app.sharelive
+pm install-existing --user 0 com.samsung.android.app.simplesharing
+pm install-existing --user 0 com.samsung.android.app.soundpicker
+pm install-existing --user 0 com.samsung.android.app.spage
+pm install-existing --user 0 com.samsung.android.app.storyalbumwidget
+pm install-existing --user 0 com.samsung.android.app.talkback
+pm install-existing --user 0 com.samsung.android.app.taskedge
+pm install-existing --user 0 com.samsung.android.app.tips
+pm install-existing --user 0 com.samsung.android.app.updatecenter
+pm install-existing --user 0 com.samsung.android.app.vrsetupwizardstub
+pm install-existing --user 0 com.samsung.android.app.watchmanager
+pm install-existing --user 0 com.samsung.android.app.watchmanagerstub
+pm install-existing --user 0 com.samsung.android.app.withtv
+pm install-existing --user 0 com.samsung.android.ardrawing
+pm install-existing --user 0 com.samsung.android.aremoji
+pm install-existing --user 0 com.samsung.android.arzone
+pm install-existing --user 0 com.samsung.android.authfw
+pm install-existing --user 0 com.samsung.android.aware.service
+pm install-existing --user 0 com.samsung.android.bbc.bbcagent
+pm install-existing --user 0 com.samsung.android.beaconmanager
+pm install-existing --user 0 com.samsung.android.bixby.agent
+pm install-existing --user 0 com.samsung.android.bixby.agent.dummy
+pm install-existing --user 0 com.samsung.android.bixby.es.globalaction
+pm install-existing --user 0 com.samsung.android.bixby.plmsync
+pm install-existing --user 0 com.samsung.android.bixby.service
+pm install-existing --user 0 com.samsung.android.bixby.voiceinput
+pm install-existing --user 0 com.samsung.android.bixby.wakeup
+pm install-existing --user 0 com.samsung.android.bixbyvision.framework
+pm install-existing --user 0 com.samsung.android.calendar
+pm install-existing --user 0 com.samsung.android.da.daagent
+pm install-existing --user 0 com.samsung.android.dlp.service
+pm install-existing --user 0 com.samsung.android.drivelink.stub
+pm install-existing --user 0 com.samsung.android.easysetup
+pm install-existing --user 0 com.samsung.android.email.provider
+pm install-existing --user 0 com.samsung.android.fmm
+pm install-existing --user 0 com.samsung.android.galaxy 
+pm install-existing --user 0 com.samsung.android.game.gamehome
+pm install-existing --user 0 com.samsung.android.game.gametools
+pm install-existing --user 0 com.samsung.android.game.gos
+pm install-existing --user 0 com.samsung.android.gametuner.thin
+pm install-existing --user 0 com.samsung.android.hmt.vrshell
+pm install-existing --user 0 com.samsung.android.hmt.vrsvc
+pm install-existing --user 0 com.samsung.android.ipsgeofence    
+pm install-existing --user 0 com.samsung.android.keyguardwallpaperupdator
+pm install-existing --user 0 com.samsung.android.kidsinstaller
+pm install-existing --user 0 com.samsung.android.knox.analytics.uploader
+pm install-existing --user 0 com.samsung.android.lool
+pm install-existing --user 0 com.samsung.android.mapsagent 
+pm install-existing --user 0 com.samsung.android.mateagent
+pm install-existing --user 0 com.samsung.android.mdm
+pm install-existing --user 0 com.samsung.android.mdx
+pm install-existing --user 0 com.samsung.android.mdx.kit
+pm install-existing --user 0 com.samsung.android.mdx.quickboard
+pm install-existing --user 0 com.samsung.android.messaging
+pm install-existing --user 0 com.samsung.android.mobileservice
+pm install-existing --user 0 com.samsung.android.oneconnect
+pm install-existing --user 0 com.samsung.android.samsungpass
+pm install-existing --user 0 com.samsung.android.samsungpassautofill
+pm install-existing --user 0 com.samsung.android.scloud
+pm install-existing --user 0 com.samsung.android.sdk.professionalaudio.utility.jammonitor
+pm install-existing --user 0 com.samsung.android.server.iris
+pm install-existing --user 0 com.samsung.android.service.livedrawing
+pm install-existing --user 0 com.samsung.android.service.peoplestripe
+pm install-existing --user 0 com.samsung.android.service.travel
+pm install-existing --user 0 com.samsung.android.setting.multisound
+pm install-existing --user 0 com.samsung.android.spay
+pm install-existing --user 0 com.samsung.android.spayfw
+pm install-existing --user 0 com.samsung.android.spdfnote
+pm install-existing --user 0 com.samsung.android.stickercenter
+pm install-existing --user 0 com.samsung.android.stickerplugin
+pm install-existing --user 0 com.samsung.android.svoice
+pm install-existing --user 0 com.samsung.android.svoiceime
+pm install-existing --user 0 com.samsung.android.themecenter
+pm install-existing --user 0 com.samsung.android.themestore
+pm install-existing --user 0 com.samsung.android.tripwidget
+pm install-existing --user 0 com.samsung.android.visionarapps
+pm install-existing --user 0 com.samsung.android.visioncloudagent
+pm install-existing --user 0 com.samsung.android.visionintelligence
+pm install-existing --user 0 com.samsung.android.voc
+pm install-existing --user 0 com.samsung.android.voicewakeup
+pm install-existing --user 0 com.samsung.android.wellbeing
+pm install-existing --user 0 com.samsung.android.widgetapp.yahooedge.finance
+pm install-existing --user 0 com.samsung.android.widgetapp.yahooedge.sport
+pm install-existing --user 0 com.samsung.app.highlightplayer
+pm install-existing --user 0 com.samsung.daydream.customization
+pm install-existing --user 0 com.samsung.dcmservice
+pm install-existing --user 0 com.samsung.desktopsystemui
+pm install-existing --user 0 com.samsung.enhanceservice
+pm install-existing --user 0 com.samsung.faceservice
+pm install-existing --user 0 com.samsung.fresco.logging
+pm install-existing --user 0 com.samsung.groupcast
+pm install-existing --user 0 com.samsung.hs20provider
+pm install-existing --user 0 com.samsung.ipservice
+pm install-existing --user 0 com.samsung.knox.appsupdateagent
+pm install-existing --user 0 com.samsung.knox.rcp.components
+pm install-existing --user 0 com.samsung.knox.securefolder
+pm install-existing --user 0 com.samsung.knox.securefolder.setuppage
+pm install-existing --user 0 com.samsung.safetyinformation
+pm install-existing --user 0 com.samsung.sec.android.application.csc
+pm install-existing --user 0 com.samsung.SMT
+pm install-existing --user 0 com.samsung.sree  
+pm install-existing --user 0 com.samsung.storyservice
+pm install-existing --user 0 com.samsung.svoice.sync
+pm install-existing --user 0 com.samsung.systemui.bixby
+pm install-existing --user 0 com.samsung.systemui.bixby2
+pm install-existing --user 0 com.samsung.ucs.agent.ese
+pm install-existing --user 0 com.samsung.voiceserviceplatform
+
+pm install-existing --user 0 com.sec.android.app.apex
+pm install-existing --user 0 com.sec.android.app.applinker
+pm install-existing --user 0 com.sec.android.app.billing
+pm install-existing --user 0 com.sec.android.app.bluetoothtest
+pm install-existing --user 0 com.sec.android.app.chromecustomizations
+pm install-existing --user 0 com.sec.android.app.clockpackage
+pm install-existing --user 0 com.sec.android.app.DataCreate
+pm install-existing --user 0 com.sec.android.app.desktoplauncher
+pm install-existing --user 0 com.sec.android.app.dexonpc
+pm install-existing --user 0 com.sec.android.app.factorykeystring
+pm install-existing --user 0 com.sec.android.app.gamehub
+pm install-existing --user 0 com.sec.android.app.hwmoduletest
+pm install-existing --user 0 com.sec.android.app.kidshome  
+pm install-existing --user 0 com.sec.android.app.magnifier
+pm install-existing --user 0 com.sec.android.app.myfiles
+pm install-existing --user 0 com.sec.android.app.ocr
+pm install-existing --user 0 com.sec.android.app.parser
+pm install-existing --user 0 com.sec.android.app.personalization
+pm install-existing --user 0 com.sec.android.app.popupcalculator
+pm install-existing --user 0 com.sec.android.app.quicktool
+pm install-existing --user 0 com.sec.android.app.ringtoneBR
+pm install-existing --user 0 com.sec.android.app.safetyassurance
+pm install-existing --user 0 com.sec.android.app.samsungapps
+pm install-existing --user 0 com.sec.android.app.sbrowser
+pm install-existing --user 0 com.sec.android.app.SecSetupWizard
+pm install-existing --user 0 com.sec.android.app.servicemodeapp
+pm install-existing --user 0 com.sec.android.app.shealth
+pm install-existing --user 0 com.sec.android.app.SmartClipEdgeService
+pm install-existing --user 0 com.sec.android.app.soundalive
+pm install-existing --user 0 com.sec.android.app.sysscope
+pm install-existing --user 0 com.sec.android.app.tfunlock
+pm install-existing --user 0 com.sec.android.app.tourviewer
+pm install-existing --user 0 com.sec.android.app.translator
+pm install-existing --user 0 com.sec.android.app.ve.vebgm
+pm install-existing --user 0 com.sec.android.app.wfdbroker
+pm install-existing --user 0 com.sec.android.app.withtv
+pm install-existing --user 0 com.sec.android.app.wlantest
+pm install-existing --user 0 com.sec.android.AutoPreconfig
+pm install-existing --user 0 com.sec.android.cover.ledcover
+pm install-existing --user 0 com.sec.android.daemonapp
+pm install-existing --user 0 com.sec.android.desktopmode.uiservice
+pm install-existing --user 0 com.sec.android.diagmonagent
+pm install-existing --user 0 com.sec.android.easyMover
+pm install-existing --user 0 com.sec.android.easyMover.Agent
+pm install-existing --user 0 com.sec.android.easyonehand
+pm install-existing --user 0 com.sec.android.emergencylauncher
+pm install-existing --user 0 com.sec.android.mimage.avatarstickers
+pm install-existing --user 0 com.sec.android.mimage.gear360editor
+pm install-existing --user 0 com.sec.android.mimage.photoretouching
+pm install-existing --user 0 com.sec.android.ofviewer
+pm install-existing --user 0 com.sec.android.omc
+pm install-existing --user 0 com.sec.android.Preconfig
+pm install-existing --user 0 com.sec.android.preloadinstaller
+pm install-existing --user 0 com.sec.android.provider.snote
+pm install-existing --user 0 com.sec.android.providers.security
+pm install-existing --user 0 com.sec.android.providers.tasks
+pm install-existing --user 0 com.sec.android.RilServiceModeApp
+pm install-existing --user 0 com.sec.android.sdhms
+pm install-existing --user 0 com.sec.android.service.health
+pm install-existing --user 0 com.sec.android.sidesync30
+pm install-existing --user 0 com.sec.android.splitsound
+pm install-existing --user 0 com.sec.android.uibcvirtualsoftkey
+pm install-existing --user 0 com.sec.android.widgetapp.diotek.smemo
+pm install-existing --user 0 com.sec.android.widgetapp.easymodecontactswidget
+pm install-existing --user 0 com.sec.android.widgetapp.samsungapps
+pm install-existing --user 0 com.sec.app.TransmitPowerService
+pm install-existing --user 0 com.sec.automation
+pm install-existing --user 0 com.sec.bcservice
+pm install-existing --user 0 com.sec.downloadablekeystore
+pm install-existing --user 0 com.sec.enterprise.knox.attestation
+pm install-existing --user 0 com.sec.enterprise.knox.cloudmdm.smdms
+pm install-existing --user 0 com.sec.enterprise.mdm.services.simpin
+pm install-existing --user 0 com.sec.enterprise.mdm.vpn
+pm install-existing --user 0 com.sec.epdgtestapp
+pm install-existing --user 0 com.sec.everglades
+pm install-existing --user 0 com.sec.everglades.update
+pm install-existing --user 0 com.sec.factory
+pm install-existing --user 0 com.sec.factory.camera
+pm install-existing --user 0 com.sec.factory.iris.usercamera
+pm install-existing --user 0 com.sec.hearingadjust
+pm install-existing --user 0 com.sec.ims
+pm install-existing --user 0 com.sec.imslogger
+pm install-existing --user 0 com.sec.imsservice
+pm install-existing --user 0 com.sec.kidsplat.installer
+pm install-existing --user 0 com.sec.knox.foldercontainer
+pm install-existing --user 0 com.sec.knox.knoxsetupwizardclient
+pm install-existing --user 0 com.sec.knox.switcher
+pm install-existing --user 0 com.sec.location.nsflp2
+pm install-existing --user 0 com.sec.mldapchecker
+pm install-existing --user 0 com.sec.modem.settings
+pm install-existing --user 0 com.sec.penup     
+pm install-existing --user 0 com.sec.providers.assisteddialing
+pm install-existing --user 0 com.sec.readershub
+pm install-existing --user 0 com.sec.smartcard.manager
+pm install-existing --user 0 com.sec.spen.flashannotate
+pm install-existing --user 0 com.sec.spp.push
+pm install-existing --user 0 com.sec.sve
+pm install-existing --user 0 com.sec.usbsettings
+pm install-existing --user 0 com.sec.vowifispg
+pm install-existing --user 0 com.sec.yosemite.phone
+pm install-existing --user 0 com.sem.factoryapp
+
+pm install-existing --user 0 com.singtel.mysingtel
+
+pm install-existing --user 0 com.skms.android.agent
+
+pm install-existing --user 0 com.skype.raider
+
+pm install-existing --user 0 com.spotify.music
+
+
+pm install-existing --user 0 com.test.LTEfunctionality
+
+pm install-existing --user 0 com.tripadvisor.tripadvisor
+
+pm install-existing --user 0 com.trustonic.tuiservice
+
+pm install-existing --user 0 com.vlingo.midas
+
+# pm install-existing --user 0 com.wsomacp
+
+pm install-existing --user 0 com.wssnps
+
+pm install-existing --user 0 com.yelp.android.samsungedge
+
+pm install-existing --user 0 comflipboard.app
+pm install-existing --user 0 comflipboard.boxer.app
+
+pm install-existing --user 0 comtv.peel.samsung.app
