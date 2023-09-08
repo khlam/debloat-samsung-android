@@ -52,6 +52,12 @@ pm uninstall -k --user 0 com.microsoft.office.word
 pm uninstall -k --user 0 com.microsoft.skydrive
 
 # samsung
+
+# gallery app
+pm uninstall -k --user 0 com.sec.android.gallery3d
+pm uninstall -k --user 0 com.samsung.android.widget.pictureframe
+pm uninstall -k --user 0 com.samsung.storyservice
+
 pm uninstall -k --user 0 com.samsung.SMT
 pm uninstall -k --user 0 com.samsung.aasaservice
 pm uninstall -k --user 0 com.samsung.android.aircommandmanager
