@@ -52,6 +52,11 @@ cmd package install-existing com.microsoft.office.word
 cmd package install-existing com.microsoft.skydrive
 
 # samsung
+# gallery app
+cmd package install-existing com.sec.android.gallery3d
+cmd package install-existing com.samsung.android.widget.pictureframe
+cmd package install-existing com.samsung.storyservice
+# other samsung
 cmd package install-existing com.samsung.SMT
 cmd package install-existing com.samsung.aasaservice
 cmd package install-existing com.samsung.android.aircommandmanager
