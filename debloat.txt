@@ -339,4 +339,35 @@ pm uninstall -k --user 0 com.vlingo.midas
 pm uninstall -k --user 0 com.wssnps
 pm uninstall -k --user 0 com.yelp.android.samsungedge
 
-#
+# based on pr (testing) https://github.com/khlam/debloat-samsung-android/pull/7/files
+
+# samsung
+pm uninstall -k --user 0 comtv.peel.samsung.app
+
+# microsoft
+pm uninstall -k --user 0 com.microsoft.office.officehubrow
+pm uninstall -k --user 0 com.microsoft.office.outlook
+pm uninstall -k --user 0 com.linkedin.android
+
+# spotify
+pm uninstall -k --user 0 com.spotify.music
+
+# netflix
+pm uninstall -k --user 0 com.netflix.partner.activation
+pm uninstall -k --user 0 com.netflix.mediaclient
+
+# based on pr (testing) https://github.com/khlam/debloat-samsung-android/pull/32/files
+
+# google
+pm uninstall -k --user 0 com.google.android.apps.youtube.music
+
+# samsung
+pm uninstall -k --user 0 com.samsung.android.app.notes.addons
+pm uninstall -k --user 0 com.samsung.android.app.updatecenter
+pm uninstall -k --user 0 com.samsung.android.galaxy
+pm uninstall -k --user 0 com.samsung.android.ipsgeofence
+pm uninstall -k --user 0 com.samsung.android.mapsagent
+pm uninstall -k --user 0 com.samsung.android.voc
+pm uninstall -k --user 0 com.samsung.sree
+pm uninstall -k --user 0 com.sec.android.app.kidshome  
+pm uninstall -k --user 0 com.sec.penup
