@@ -41,11 +41,11 @@ Further reading on ADB can be found here: https://developer.android.com/studio/c
 
 8. Once in the device's shell: 
 
-IMPORTANT: There is a list of apps that are known to cause issues [do_not_remove.txt](./do_not_remove.txt) DO NOT remove them.
-
- a. copy and paste all desired packages to remove from [debloat.txt](./debloat.txt)
- If anything goes south, revert all changes running:
- b. copy and paste all desired packages to re-add from [revert_debloat.txt](./revert_debloat.txt)
+9. a. copy and paste all desired packages to remove from [debloat.txt](./debloat.txt)
+ 
+If anything goes south, revert all changes running:
+ 
+9. b. copy and paste all desired packages to re-add from [revert_debloat.txt](./revert_debloat.txt)
 
  
 
