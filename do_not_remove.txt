@@ -3,4 +3,6 @@
 pm uninstall -k --user 0 com.samsung.android.provider.filterprovider
 pm uninstall -k --user 0 com.samsung.android.app.smartcapture
 
-#
+# Breaks media/devices buttons in quickboard, alongside dual-audio:
+
+pm uninstall -k --user 0 com.samsung.android.mdx.quickboard

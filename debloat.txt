@@ -120,7 +120,6 @@ pm uninstall -k --user 0 com.samsung.android.mateagent
 pm uninstall -k --user 0 com.samsung.android.mdm
 pm uninstall -k --user 0 com.samsung.android.mdx
 pm uninstall -k --user 0 com.samsung.android.mdx.kit
-pm uninstall -k --user 0 com.samsung.android.mdx.quickboard
 pm uninstall -k --user 0 com.samsung.android.messaging
 pm uninstall -k --user 0 com.samsung.android.mobileservice
 pm uninstall -k --user 0 com.samsung.android.oneconnect
