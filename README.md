@@ -2,7 +2,6 @@
 
 This repository contains a list of [Android Debug Bridge (ADB)](https://developer.android.com/studio/command-line/adb) commands to aggressively disable apps/bloatware from Samsung Android devices that don't normally display an option to remove them.
 
-
 Running all commands listed in [debloat.txt](./debloat.txt) will disable almost all Samsung apps.
 This includes the Galaxy App Store, Samsung Themes, Samsung Dex, Samsung Bixby, Facebook, and more.
 The end result will be a minimalist Samsung phone.
@@ -17,6 +16,7 @@ After running these commands, you will no longer be able to:
 1. install Profile Isolation (Work Profile) apps such as [Island](https://play.google.com/store/apps/details?id=com.oasisfeng.island&hl=en_US) or [Shelter](https://play.google.com/store/apps/details?id=net.typeblog.shelter&hl=en_US). **Installing Profile Isolation apps after running these commands will put OneUI into a crash-loop.**
 2. Use anything that needs Galaxy Store to work.
 3. Use Samsung Dex/Samsung Phone integration with Windows 10.
+4. There is a list of apps that are known to cause issues [do_not_remove.txt](./do_not_remove.txt) DO NOT remove them.
 
 > ⚠️ Research each package before running the command to disable it. Some apps have hidden dependencies.
 
@@ -40,11 +40,18 @@ Further reading on ADB can be found here: https://developer.android.com/studio/c
     - `adb shell`
 
 8. Once in the device's shell: 
+
+IMPORTANT: There is a list of apps that are known to cause issues [do_not_remove.txt](./do_not_remove.txt) DO NOT remove them.
+
  a. copy and paste all desired packages to remove from [debloat.txt](./debloat.txt)
  If anything goes south, revert all changes running:
  b. copy and paste all desired packages to re-add from [revert_debloat.txt](./revert_debloat.txt)
 
+ 
+
 ## Contributing:
+There is alist of apps that are known to cause issues, those will not be added to the list and can be found at [do_not_remove.txt](./do_not_remove.txt)
+
 Once in your device's shell, you can use the following command to list installed packages by name.
  - `pm list package | grep '<package name>'`
 
