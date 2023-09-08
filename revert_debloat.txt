@@ -173,6 +173,7 @@ cmd package install-existing com.samsung.systemui.bixby2
 cmd package install-existing com.samsung.ucs.agent.ese
 cmd package install-existing com.samsung.voiceserviceplatform
 cmd package install-existing com.samsung.android.lool
+cmd package install-existing com.opera.max.oem
 
 ## samsung - knox
 
@@ -189,6 +190,7 @@ cmd package install-existing com.sec.knox.switcher
 
 # unknown
 
+cmd package install-existing com.sec.android.usermanual
 cmd package install-existing com.android.backupconfirm
 cmd package install-existing com.android.bips
 cmd package install-existing com.android.chrome
