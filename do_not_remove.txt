@@ -1,0 +1,6 @@
+# Breaks native camera app
+
+pm uninstall -k --user 0 com.samsung.android.provider.filterprovider
+pm uninstall -k --user 0 com.samsung.android.app.smartcapture
+
+#
