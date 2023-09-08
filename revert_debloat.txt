@@ -1,20 +1,25 @@
 # Amazon
-
 cmd package install-existing com.amazon.fv
 cmd package install-existing com.amazon.kindle
 cmd package install-existing com.amazon.mShop.android
 cmd package install-existing com.amazon.mp3
 cmd package install-existing com.amazon.venezia
 
-# facebook
+# spotify
+cmd package install-existing com.spotify.music
 
+# facebook
 cmd package install-existing com.facebook.appmanager
 cmd package install-existing com.facebook.katana
 cmd package install-existing com.facebook.services
 cmd package install-existing com.facebook.system
 
-# google
+# netflix
+cmd package install-existing com.netflix.partner.activation
+cmd package install-existing com.netflix.mediaclient
 
+# google
+cmd package install-existing com.google.android.apps.youtube.music
 cmd package install-existing com.google.android.apps.books
 cmd package install-existing com.google.android.apps.docs
 cmd package install-existing com.google.android.apps.magazines
@@ -35,7 +40,9 @@ cmd package install-existing com.google.ar.core
 cmd package install-existing com.google.vr.vrcore
 
 # microsoft
-
+cmd package install-existing com.microsoft.office.officehubrow
+cmd package install-existing com.microsoft.office.outlook
+cmd package install-existing com.linkedin.android
 cmd package install-existing com.microsoft.appmanager
 cmd package install-existing com.microsoft.office.excel
 cmd package install-existing com.microsoft.office.officehubrow
@@ -45,7 +52,6 @@ cmd package install-existing com.microsoft.office.word
 cmd package install-existing com.microsoft.skydrive
 
 # samsung
-
 cmd package install-existing com.samsung.SMT
 cmd package install-existing com.samsung.aasaservice
 cmd package install-existing com.samsung.android.aircommandmanager
@@ -120,7 +126,6 @@ cmd package install-existing com.samsung.android.mateagent
 cmd package install-existing com.samsung.android.mdm
 cmd package install-existing com.samsung.android.mdx
 cmd package install-existing com.samsung.android.mdx.kit
-cmd package install-existing com.samsung.android.mdx.quickboard
 cmd package install-existing com.samsung.android.messaging
 cmd package install-existing com.samsung.android.mobileservice
 cmd package install-existing com.samsung.android.oneconnect
@@ -174,9 +179,18 @@ cmd package install-existing com.samsung.ucs.agent.ese
 cmd package install-existing com.samsung.voiceserviceplatform
 cmd package install-existing com.samsung.android.lool
 cmd package install-existing com.opera.max.oem
+cmd package install-existing comtv.peel.samsung.app
+cmd package install-existing com.samsung.android.app.notes.addons
+cmd package install-existing com.samsung.android.app.updatecenter
+cmd package install-existing com.samsung.android.galaxy
+cmd package install-existing com.samsung.android.ipsgeofence
+cmd package install-existing com.samsung.android.mapsagent
+cmd package install-existing com.samsung.android.voc
+cmd package install-existing com.samsung.sree
+cmd package install-existing com.sec.android.app.kidshome  
+cmd package install-existing com.sec.penup
 
 ## samsung - knox
-
 cmd package install-existing com.samsung.android.knox.analytics.uploader
 cmd package install-existing com.samsung.knox.appsupdateagent
 cmd package install-existing com.samsung.knox.rcp.components
@@ -189,7 +203,6 @@ cmd package install-existing com.sec.knox.knoxsetupwizardclient
 cmd package install-existing com.sec.knox.switcher
 
 # unknown
-
 cmd package install-existing com.sec.android.usermanual
 cmd package install-existing com.android.backupconfirm
 cmd package install-existing com.android.bips
@@ -340,4 +353,4 @@ cmd package install-existing com.vlingo.midas
 cmd package install-existing com.wssnps
 cmd package install-existing com.yelp.android.samsungedge
 
-#
+# re-bloated, everything should work!
